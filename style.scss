@@ -13,7 +13,7 @@ body{
 header{
     background-color: #569C87;
     color: #EFC64F;
-    font-size: 1.7em;
+    font-size: 2em;
     height: 3em;
     display: flex;
     align-items: center;
@@ -38,14 +38,16 @@ footer{
     }
 }
 
-.Prochainement {
+.soon {
     background: #569C87;
     display: inline-block;
     border-radius: 15px;
     padding: 0.3em 1em 0.3em 1em;
     color:#EFC64F;
     margin: 2em 0 3em 0;
-    font-size: 40px;
+    font-size: 50px;
+    width: 35%;
+
 }
 nav ul{
     display: flex;
@@ -53,13 +55,15 @@ nav ul{
     list-style: none;
 }
 
+.conteiner{
+    display: flex;
+    justify-content: center;
+}
 .bloc {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     flex-direction: row;
     width: 70%;
-    margin: auto;
     justify-content: space-around;
   }
   

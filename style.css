@@ -13,7 +13,7 @@ body {
 header {
   background-color: #569C87;
   color: #EFC64F;
-  font-size: 1.7em;
+  font-size: 2em;
   height: 3em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57,7 +57,8 @@ footer a {
   padding: 0.3em 1em 0.3em 1em;
   color: #EFC64F;
   margin: 2em 0 3em 0;
-  font-size: 40px;
+  font-size: 50px;
+  width: 35%;
 }
 
 nav ul {
@@ -71,21 +72,26 @@ nav ul {
   list-style: none;
 }
 
+.conteiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .bloc {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
   width: 70%;
-  margin: auto;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
