@@ -118,6 +118,7 @@ nav ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #FCDFDB;
 }
 
 .menu1 p {
@@ -154,11 +155,12 @@ nav ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #FEF5FD;
 }
 
-.menu2 > p:first-child {
+.menu2 > p {
   font-family: 'Croissant One', cursive;
-  font-size: 30px;
+  font-size: 35px;
   background: -webkit-gradient(linear, left top, right bottom, from(#FB8C00), to(#7986CB));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -196,11 +198,12 @@ nav ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #F9F9F9;
 }
 
 .menu3 > p {
   font-family: 'Dancing Script', cursive;
-  font-size: 40px;
+  font-size: 50px;
   background: -webkit-gradient(linear, left top, right bottom, from(#0D47A1), to(#29B6F6));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -211,6 +214,7 @@ nav ul {
 }
 
 .menu3 a p {
+  font-family: 'Kaushan Script', cursive;
   font-size: 50px;
   color: #1976D2;
 }
@@ -236,11 +240,12 @@ nav ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #FDFFFD;
 }
 
 .menu4 > p {
   font-family: 'Kaushan Script', cursive;
-  font-size: 40px;
+  font-size: 50px;
   background: -webkit-gradient(linear, left top, right bottom, from(#33691E), to(#CDDC39));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -251,6 +256,7 @@ nav ul {
 }
 
 .menu4 a p {
+  font-family: 'Kaushan Script', cursive;
   font-size: 50px;
   color: #689F38;
 }
