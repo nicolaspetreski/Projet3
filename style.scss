@@ -33,12 +33,12 @@ footer{
 
     a{
         color: #EFC64F;
-        font-size: 1.7em;
+        font-size: 2.2em;
         text-decoration: none;
     }
 }
 
-.soon {
+.soon{
     background: #569C87;
     display: inline-block;
     border-radius: 15px;
@@ -59,25 +59,147 @@ nav ul{
     display: flex;
     justify-content: center;
 }
-.bloc {
+.bloc{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     width: 70%;
     justify-content: space-around;
-  }
+}
   
   
-.menu {
+.menu1{
+    font-family: 'Devonshire', cursive;
+    padding: 250px 0 250px 0;
     margin: 30px auto 30px auto;
     -webkit-box-shadow: 0px 1px 18px 3px rgba(0,0,0,0.43);
     -moz-box-shadow: 0px 1px 18px 3px rgba(0,0,0,0.43);
     box-shadow: 0px 1px 18px 3px rgba(0,0,0,0.43);
-    width: 40%;
+    width: 35%;
     height: auto;
     overflow: hidden;
-  }
-.menu img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    p{
+        color: #3E2723;
+        font-size: 50px;
+        }
+
+    a{
+    text-decoration: none;
+        p{
+            font-family: 'Sriracha', cursive;
+        }
+    } 
+}
+
+.menu2{
+    padding: 250px 0 250px 0;
+    margin: 30px auto 30px auto;
+    -webkit-box-shadow: 0px 1px 18px 3px rgba(0,0,0,0.43);
+    -moz-box-shadow: 0px 1px 18px 3px rgba(0,0,0,0.43);
+    box-shadow: 0px 1px 18px 3px rgba(0,0,0,0.43);
+    width: 35%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    > p:first-child{ 
+        font-family: 'Croissant One', cursive;
+        font-size: 30px;
+        background: -webkit-gradient(linear, left top, right bottom, from(#FB8C00), to(#7986CB));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        }
+    a{
+    text-decoration: none;
+        p{
+            font-family: 'Noto Serif', serif;
+            color: #FB8C00;
+            font-size: 50px;
+            font-weight: 700;
+        }
+    }
+}
+
+.menu3{
+    padding: 250px 0 250px 0;
+    margin: 30px auto 30px auto;
+    -webkit-box-shadow: 0px 1px 18px 3px rgba(0,0,0,0.43);
+    -moz-box-shadow: 0px 1px 18px 3px rgba(0,0,0,0.43);
+    box-shadow: 0px 1px 18px 3px rgba(0,0,0,0.43);
+    width: 35%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    > p{
+        font-family: 'Dancing Script', cursive;
+        font-size: 40px;
+        background: -webkit-gradient(linear, left top, right bottom, from(#0D47A1), to(#29B6F6));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        }
+
+    a{
+    text-decoration: none;
+    
+        p{
+            font-size: 50px;
+            color: #1976D2;
+        }
+    }
+}
+
+.menu4{
+    padding: 250px 0 250px 0;
+    margin: 30px auto 30px auto;
+    -webkit-box-shadow: 0px 1px 18px 3px rgba(0,0,0,0.43);
+    -moz-box-shadow: 0px 1px 18px 3px rgba(0,0,0,0.43);
+    box-shadow: 0px 1px 18px 3px rgba(0,0,0,0.43);
+    width: 35%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    > p{
+        font-family: 'Kaushan Script', cursive;
+        font-size: 40px;
+        background: -webkit-gradient(linear, left top, right bottom, from(#33691E), to(#CDDC39));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        }
+
+    a{
+    text-decoration: none;
+        p{
+            font-size: 50px;
+            color: #689F38;
+        }
+    }
+}
+
+.menu img{
     width: 100%;
     height: 100%;
-  }
+}
+
+i{
+    font-size: 62px;
+    display: block;
+    background: -webkit-gradient(linear, left center, right center, from(#e53935), to(#FB8C00));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
