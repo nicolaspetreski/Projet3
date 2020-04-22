@@ -1,0 +1,108 @@
+
+.menu-1 {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    background-color: #FCDFDB;
+}
+
+.header-m-1 {
+    text-align: center;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title-m-1 {
+    font-family: 'Devonshire', cursive;
+    font-size: 4em;
+    color: #3e2723;
+    margin: 30px 0px;
+    font-weight: lighter;
+}
+
+.dishes-m-1 {
+    text-align: center;
+    color: #3e2723;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+}
+
+ul{
+    list-style: none;
+    li {
+        color: #424242;
+    }
+}
+
+ul li{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 8em 1em 8em;
+}
+
+section{
+    padding: 2em 0 2em 0;
+}
+
+.bottom-m-1 {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 30px;
+
+    i{
+        font-size: 2em;
+    }
+}
+
+.ending {
+    font-family: 'Devonshire', cursive;
+    display: inline-flex;
+    width: auto;
+    justify-content: center;
+    color: #4e342e;
+    font-size: 2.5em;
+    font-weight: lighter;
+
+    i{
+        font-size: 1em;
+        margin-right: 0.2em;
+    }
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .titrem1 {
+        font-size: 3em;
+    }
+
+    .price {
+        float: none;
+        display: flex;
+        text-align: center;
+        margin: auto;
+        margin-top: 8px;
+        justify-content: center;
+    }
+
+    .dishes {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .title {
+        width: 100%;
+        margin: auto;
+        margin: 10px auto;
+    }
+
+    .ending {
+        font-size: 1.8em;
+    }
+}

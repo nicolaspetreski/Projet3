@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAA;EACP,WAAW,EAAE,GAAG;EAChB,cAAc,EAAE,GAAG;CACtB",
+    "sources": [
+        "mentionslegales.scss"
+    ],
+    "names": [],
+    "file": "mentionslegales.css"
+}
