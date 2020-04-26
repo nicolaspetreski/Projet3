@@ -63,7 +63,7 @@ nav ul{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 70%;
+    width: 75%;
     justify-content: space-around;
 }
   
@@ -82,71 +82,91 @@ nav ul{
     align-items: center;
 }
 
-.menu1{
-    font-family: 'Devonshire', cursive;
-    background-color: #FCDFDB;
+.menu a:hover{
+    
+        -webkit-transform: scale(1.15);
+        /* Safari et Chrome */
+        -moz-transform: scale(1.15);
+        /* Firefox */
+        -ms-transform: scale(1.15);
+        /* Internet Explorer 9 */
+        -o-transform: scale(1.15);
+        /* Opera */
+        transform: scale(1.15);
+        -moz-transition: all 0.9s;
+        -webkit-transition: all 0.9s;
+        transition: all 0.9s;
+        opacity: 0.8;
+}
 
-    p{
+.menu1{
+    background-color: #FCDFDB;
+    a{
+        text-decoration: none;
+        p:nth-child(2){
+        font-family: 'Devonshire', cursive;
         color: #3E2723;
         font-size: 50px;
         }
 
-    a{
-    text-decoration: none;
         p{
             font-family: 'Sriracha', cursive;
+            color: #3E2723;
+            font-size: 50px;
+            font-weight: 700;
         }
     } 
 }
 
 .menu2{
-    
     background-color: #FEF5FD;
-
-    > p{ 
-        font-family: 'Croissant One', cursive;
-        font-size: 35px;
-        background: -webkit-gradient(linear, left top, right bottom, from(#FB8C00), to(#7986CB));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        }
     a{
-    text-decoration: none;
+        text-decoration: none;
+        
+        p:first-child{
+            font-family: 'Croissant One', cursive;
+            font-size: 35px;
+            background: -webkit-gradient(linear, left top, right bottom, from(#FB8C00), to(#7986CB));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    
         p{
-            font-family: 'Noto Serif', serif;
             color: #FB8C00;
+            font-family: 'Noto Serif', serif;
             font-size: 50px;
             font-weight: 700;
-        }
+        } 
     }
 }
 
 .menu3{
     background-color: #F9F9F9;
-
-    > p{
-        font-family: 'Dancing Script', cursive;
-        font-size: 50px;
-        background: -webkit-gradient(linear, left top, right bottom, from(#0D47A1), to(#29B6F6));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+    a{
+        text-decoration: none;
+        
+        p:first-child{
+            font-family: 'Dancing Script', cursive;
+            font-size: 50px;
+            background: -webkit-gradient(linear, left top, right bottom, from(#0D47A1), to(#29B6F6));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
 
-    a{
-    text-decoration: none;
-    
         p{
-            font-family: 'Kaushan Script', cursive;
-            font-size: 50px;
-            color: #1976D2;
+        font-family: 'Kaushan Script', cursive;
+        font-size: 50px;
+        color: #1976D2;
         }
     }
 }
 
 .menu4{
     background-color: #FDFFFD;
-
-    > p{
+    a{
+        text-decoration: none;
+        
+        p:first-child{
         font-family: 'Kaushan Script', cursive;
         font-size: 50px;
         background: -webkit-gradient(linear, left top, right bottom, from(#33691E), to(#CDDC39));
@@ -154,8 +174,6 @@ nav ul{
         -webkit-text-fill-color: transparent;
         }
 
-    a{
-    text-decoration: none;
         p{
             font-family: 'Kaushan Script', cursive;
             font-size: 50px;

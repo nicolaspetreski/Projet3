@@ -91,7 +91,7 @@ nav ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 70%;
+  width: 75%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
@@ -119,29 +119,48 @@ nav ul {
           align-items: center;
 }
 
-.menu1 {
-  font-family: 'Devonshire', cursive;
-  background-color: #FCDFDB;
+.menu a:hover {
+  -webkit-transform: scale(1.15);
+  /* Safari et Chrome */
+  /* Firefox */
+  /* Internet Explorer 9 */
+  /* Opera */
+  transform: scale(1.15);
+  -webkit-transition: all 0.9s;
+  transition: all 0.9s;
+  opacity: 0.8;
 }
 
-.menu1 p {
-  color: #3E2723;
-  font-size: 50px;
+.menu1 {
+  background-color: #FCDFDB;
 }
 
 .menu1 a {
   text-decoration: none;
 }
 
+.menu1 a p:nth-child(2) {
+  font-family: 'Devonshire', cursive;
+  color: #3E2723;
+  font-size: 50px;
+}
+
 .menu1 a p {
   font-family: 'Sriracha', cursive;
+  color: #3E2723;
+  font-size: 50px;
+  font-weight: 700;
 }
 
 .menu2 {
   background-color: #FEF5FD;
 }
 
-.menu2 > p {
+.menu2 a {
+  text-decoration: none;
+}
+
+.menu2 a p:first-child {
   font-family: 'Croissant One', cursive;
   font-size: 35px;
   background: -webkit-gradient(linear, left top, right bottom, from(#FB8C00), to(#7986CB));
@@ -149,13 +168,9 @@ nav ul {
   -webkit-text-fill-color: transparent;
 }
 
-.menu2 a {
-  text-decoration: none;
-}
-
 .menu2 a p {
-  font-family: 'Noto Serif', serif;
   color: #FB8C00;
+  font-family: 'Noto Serif', serif;
   font-size: 50px;
   font-weight: 700;
 }
@@ -164,16 +179,16 @@ nav ul {
   background-color: #F9F9F9;
 }
 
-.menu3 > p {
+.menu3 a {
+  text-decoration: none;
+}
+
+.menu3 a p:first-child {
   font-family: 'Dancing Script', cursive;
   font-size: 50px;
   background: -webkit-gradient(linear, left top, right bottom, from(#0D47A1), to(#29B6F6));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.menu3 a {
-  text-decoration: none;
 }
 
 .menu3 a p {
@@ -186,16 +201,16 @@ nav ul {
   background-color: #FDFFFD;
 }
 
-.menu4 > p {
+.menu4 a {
+  text-decoration: none;
+}
+
+.menu4 a p:first-child {
   font-family: 'Kaushan Script', cursive;
   font-size: 50px;
   background: -webkit-gradient(linear, left top, right bottom, from(#33691E), to(#CDDC39));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.menu4 a {
-  text-decoration: none;
 }
 
 .menu4 a p {
@@ -210,6 +225,11 @@ i {
   background: -webkit-gradient(linear, left center, right center, from(#e53935), to(#FB8C00));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #EFC64F;
 }
 
 .menu-1 {
@@ -340,6 +360,11 @@ section {
   }
 }
 
+h1 a {
+  text-decoration: none;
+  color: #EFC64F;
+}
+
 .menu-2 {
   width: 50%;
   height: auto;
@@ -447,6 +472,11 @@ h2 {
   }
 }
 
+h1 a {
+  text-decoration: none;
+  color: #EFC64F;
+}
+
 .menu-3 {
   width: 50%;
   height: auto;
@@ -548,6 +578,11 @@ h2, ul li {
   }
 }
 
+h1 a {
+  text-decoration: none;
+  color: #EFC64F;
+}
+
 .menu-4 {
   width: 50%;
   height: auto;
@@ -641,5 +676,10 @@ h2, ul li {
 .container5 {
   padding-top: 6em;
   padding-bottom: 6em;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #EFC64F;
 }
 /*# sourceMappingURL=style.css.map */
