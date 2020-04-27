@@ -1,4 +1,4 @@
-h1 a{
+h1 a {
     text-decoration: none;
     color: #EFC64F;
 }
@@ -34,14 +34,14 @@ h1 a{
     font-size: 1.5em;
 }
 
-.ul-m1{
+.ul-m1 {
     list-style: none;
-    li {
+        li {
         color: #424242;
         display: flex;
-    justify-content: space-between;
-    padding: 1em 5em 1em 5em;
-    }
+        justify-content: space-between;
+        padding: 1em 5em 1em 5em;
+        }
 }
 
 section{
@@ -53,10 +53,10 @@ section{
     justify-content: center;
     width: 100%;
     padding-bottom: 30px;
-
-    i{
-        font-size: 2em;
-    }
+        
+        i{
+            font-size: 2em;
+        }
 }
 
 .ending {
@@ -67,19 +67,20 @@ section{
     color: #4e342e;
     font-size: 2.5em;
     font-weight: lighter;
-
-    i{
-        font-size: 1em;
-        margin-right: 0.2em;
-    }
+        
+        i{
+            font-size: 1em;
+            margin-right: 0.2em;
+        }
 }
 
 .m-1 {
     line-height: 1;
-  }
-  .m-1 {
+}
+  
+.m-1 {
     display: inline-block;
-  }
+}
   
 .m-1:after {
     content: '';

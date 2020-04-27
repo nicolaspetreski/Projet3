@@ -1,4 +1,4 @@
-h1 a{
+h1 a {
     text-decoration: none;
     color: #EFC64F;
 }
@@ -26,8 +26,8 @@ h1 a{
     margin: 30px 0px;
     font-weight: lighter;
     background: -webkit-gradient(linear, left top, right bottom, from(#33691E), to(#CDDC39));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .dishes-m-4 {
@@ -36,23 +36,27 @@ h1 a{
     font-size: 1.5em;
 }
 
-.ul-m4 li{
+.ul-m4-1, .ul-m4-2, .ul-m4-3 {
     list-style: none;
-    color: black;
-    display: flex;
-    justify-content: space-between;
-    padding: 1em 5em 1em 5em;
+    font-family: 'Noto Serif', serif;
+        
+        li{
+            color: black;
+            display: flex;
+            justify-content: space-between;
+            padding: 1em 5em 1em 5em;
+        }
 }
 
-section{
+section {
     padding: 2em 0 2em 0;
 }
 
-.title-m-4, .ul-m4 li{
+.title-m-4{
     font-family: 'Noto Serif', serif;
 }
 
-.m-4-1, .m-4-2, .m-4-3{
+.m-4-1, .m-4-2, .m-4-3 {
     line-height: 1;
 }
 
@@ -75,7 +79,34 @@ section{
     transition: width .7s ease, background-color .7s ease;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 479px)
+{
 
+}
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px)
+{
+
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px)
+{
+
+}
+@media screen and (min-width: 1280px) and (max-width: 1439px)
+{
+
+}
+@media screen and (min-width: 1440px) and (max-width: 1919px)
+{
+
+}
+@media screen and (min-width: 1920px)
+{
+
+} 
 @media screen and (max-width: 1000px) {
 
 

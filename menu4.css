@@ -43,8 +43,12 @@ h1 a {
   font-size: 1.5em;
 }
 
-.ul-m4 li {
+.ul-m4-1, .ul-m4-2, .ul-m4-3 {
   list-style: none;
+  font-family: 'Noto Serif', serif;
+}
+
+.ul-m4-1 li, .ul-m4-2 li, .ul-m4-3 li {
   color: black;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -59,7 +63,7 @@ section {
   padding: 2em 0 2em 0;
 }
 
-.title-m-4, .ul-m4 li {
+.title-m-4 {
   font-family: 'Noto Serif', serif;
 }
 

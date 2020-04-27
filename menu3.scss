@@ -1,4 +1,4 @@
-h1 a{
+h1 a {
     text-decoration: none;
     color: #EFC64F;
 }
@@ -26,8 +26,8 @@ h1 a{
     margin: 30px 0px;
     font-weight: lighter;
     background: -webkit-gradient(linear, left top, right bottom, from(#0D47A1), to(#29B6F6));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .dishes-m-3 {
@@ -37,12 +37,13 @@ h1 a{
     font-size: 1.5em;
 }
 
-.m-3-1, .m-3-2, .m-3-3{
+.m-3-1, .m-3-2, .m-3-3 {
     color:black;
 }
 
-.ul-m3-1, .ul-m3-2, .ul-m3-3{
+.ul-m3-1, .ul-m3-2, .ul-m3-3 {
     list-style: none;
+        
         li{
             color: #424242;
             display: flex;
@@ -51,11 +52,11 @@ h1 a{
         }
 }
 
-section{
+section {
     padding: 2em 0 2em 0;
 }
 
-.title-m-3, .ul-m3-1 li, .ul-m3-2 li, .ul-m3-3 li{
+.title-m-3, .ul-m3-1 li, .ul-m3-2 li, .ul-m3-3 li {
     font-family: 'Sriracha', cursive;
 }
 
@@ -82,6 +83,34 @@ section{
     transition: width .7s ease, background-color .7s ease;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 479px)
+{
+
+}
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px)
+{
+
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px)
+{
+
+}
+@media screen and (min-width: 1280px) and (max-width: 1439px)
+{
+
+}
+@media screen and (min-width: 1440px) and (max-width: 1919px)
+{
+
+}
+@media screen and (min-width: 1920px)
+{
+
+} 
 @media screen and (max-width: 1000px) {
 
     .titrem1 {
