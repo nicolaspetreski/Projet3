@@ -4,7 +4,7 @@ h1 a{
 }
 
 .menu-3 {
-    width: 50%;
+    width: 60%;
     height: auto;
     margin: auto;
     margin-bottom: 80px;
@@ -41,25 +41,46 @@ h1 a{
     color:black;
 }
 
-ul{
+.ul-m3-1, .ul-m3-2, .ul-m3-3{
     list-style: none;
-    li {
-        color: #424242;
-    }
-}
-
-ul li{
-    display: flex;
-    justify-content: space-between;
-    padding: 1em 8em 1em 8em;
+        li{
+            color: #424242;
+            display: flex;
+            justify-content: space-between;
+            padding: 1em 5em 1em 5em;
+        }
 }
 
 section{
     padding: 2em 0 2em 0;
 }
 
-h2, ul li{
+.title-m-3, .ul-m3-1 li, .ul-m3-2 li, .ul-m3-3 li{
     font-family: 'Sriracha', cursive;
+}
+
+.m-3-1, .m-3-2, .m-3-3 {
+    line-height: 1;
+}
+
+.m-3-1, .m-3-2, .m-3-3 {
+    display: inline-block;
+}
+  
+.m-3-1:after, .m-3-2:after, .m-3-3:after {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 0;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.m-3-1:hover:after, .m-3-2:hover:after, .m-3-3:hover:after {
+    width: 100%;
+    transition: width .7s ease, background-color .7s ease;
 }
 
 @media screen and (max-width: 1000px) {
