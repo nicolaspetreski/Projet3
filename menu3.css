@@ -249,5 +249,8 @@ section {
   .title-m-3 {
     font-size: 6em;
   }
+  .m-3-1, .m-3-2, .m-3-3 {
+    font-size: 3em;
+  }
 }
 /*# sourceMappingURL=menu3.css.map */

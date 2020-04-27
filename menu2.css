@@ -261,5 +261,8 @@ section {
   .title-m-2 {
     font-size: 6em;
   }
+  .m-2-1, .m-2-2, .m-2-3 {
+    font-size: 3em;
+  }
 }
 /*# sourceMappingURL=menu2.css.map */
