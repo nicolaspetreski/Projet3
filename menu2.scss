@@ -4,7 +4,7 @@ h1 a{
 }
 
 .menu-2 {
-    width: 50%;
+    width: 60%;
     height: auto;
     margin: auto;
     margin-bottom: 80px;
@@ -37,18 +37,17 @@ h1 a{
     font-size: 1.5em;
 }
 
-ul{
-    list-style: none;
-}
-
 section{
     padding: 2em 0 2em 0;
 }
 
-ul li{
+.ul-m2-1, .ul-m2-2, .ul-m2-3{
+list-style: none;
+    li{
     display: flex;
     justify-content: space-between;
-    padding: 1em 8em 1em 8em;
+    padding: 1em 5em 1em 5em;
+    }
 }
 
 .m-2-1, .ul-m2-1 li{
@@ -70,6 +69,30 @@ h2, ul li{
 
 h2{
     font-size: 1.2em;
+}
+
+
+.m-2-1, .m-2-2, .m-2-3 {
+    line-height: 1;
+}
+
+.m-2-1, .m-2-2, .m-2-3 {
+    display: inline-block;
+}
+  
+.m-2-1:after, .m-2-2:after, .m-2-3:after {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 0;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(to left, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.m-2-1:hover:after, .m-2-2:hover:after, .m-2-3:hover:after {
+    width: 100%;
+    transition: width .7s ease, background-color .7s ease;
 }
 
 
