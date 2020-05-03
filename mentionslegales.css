@@ -7,4 +7,55 @@ h1 a {
   text-decoration: none;
   color: #EFC64F;
 }
+
+.fixed {
+  position: absolute;
+  bottom: 0;
+}
+
+.fixed div {
+  width: 30%;
+}
+
+.retour:hover {
+  -webkit-animation: anim 0.1s;
+          animation: anim 0.1s;
+  -webkit-animation-iteration-count: 5;
+          animation-iteration-count: 5;
+}
+
+.mentions:hover {
+  -webkit-animation: anim 0.1s;
+          animation: anim 0.1s;
+  -webkit-animation-iteration-count: 5;
+          animation-iteration-count: 5;
+}
+
+.contact:hover {
+  -webkit-animation: anim 0.1s;
+          animation: anim 0.1s;
+  -webkit-animation-iteration-count: 5;
+          animation-iteration-count: 5;
+}
+
+@-webkit-keyframes anim {
+  0% {
+    margin: 0;
+  }
+  15% {
+    margin-top: -2px;
+  }
+  33% {
+    margin-left: -5px;
+  }
+  45% {
+    margin-top: 2px;
+  }
+  66% {
+    margin-left: 5px;
+  }
+  100% {
+    margin: 0px;
+  }
+}
 /*# sourceMappingURL=mentionslegales.css.map */
