@@ -115,20 +115,18 @@ section {
   }
 
 .m-2-1 span:before, .m-2-1 span:after{
-    border: 0.0625em solid #FB8C00;
+    border: 0.05em solid #FB8C00;
     width: 4.3em;
 }
 
 .m-2-2 span:before, .m-2-2 span:after{
-    border: 0.0625em solid #C779D0;
+    border: 0.05em solid #C779D0;
     width: 5em;
-    margin: 0em 0.6em 0em 0.6em;
 }
 
 .m-2-3 span:before, .m-2-3 span:after{
-    border: 0.0625em solid #4BC0C8;
+    border: 0.05em solid #4BC0C8;
     width: 5em;
-    margin: 0em 0.1em 0em 0.1em;
 }
 
 
@@ -207,6 +205,18 @@ footer{
     .title-m-2{
         font-size: 3em;
     }
+
+    .m-2-1 span:before, .m-2-1 span:after{
+        display: none;
+    }
+    
+    .m-2-2 span:before, .m-2-2 span:after{
+       display: none;
+    }
+    
+    .m-2-3 span:before, .m-2-3 span:after{
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px)
@@ -222,8 +232,6 @@ footer{
     .ul-m2-1, .ul-m2-2, .ul-m2-3 {
         list-style: none;
             li {
-            display:flex;
-            justify-content: space-between;
             padding: 1em 2em 1em 2em;
             text-align: left;
             }
@@ -231,6 +239,18 @@ footer{
 
     .title-m-2{
         font-size: 3em;
+    }
+
+    .m-2-1 span:before, .m-2-1 span:after{
+        width: 0.2em;
+    }
+    
+    .m-2-2 span:before, .m-2-2 span:after{
+        width: 0.2em;
+    }
+    
+    .m-2-3 span:before, .m-2-3 span:after{
+        width: 0.2em;
     }
 }
 
@@ -247,11 +267,28 @@ footer{
     .ul-m2-1, .ul-m2-2, .ul-m2-3 {
             li{
             padding: 1em 3em 1em 3em;
+            text-align: left;
+
+                em{
+                    text-align: right;
+                }
             }
     }
 
     .title-m-2{
         font-size: 3em;
+    }
+
+    .m-2-1 span:before, .m-2-1 span:after{
+        width: 1.8em;
+    }
+    
+    .m-2-2 span:before, .m-2-2 span:after{
+        width: 2.8em;
+    }
+    
+    .m-2-3 span:before, .m-2-3 span:after{
+        width: 2.3em;
     }
 
  
@@ -277,6 +314,18 @@ footer{
         font-size: 3em;
     }
 
+    .m-2-1 span:before, .m-2-1 span:after{
+        width: 2.4em;
+    }
+    
+    .m-2-2 span:before, .m-2-2 span:after{
+        width: 3.4em;
+    }
+    
+    .m-2-3 span:before, .m-2-3 span:after{
+        width: 2.8em;
+    }
+
 }
 @media screen and (min-width: 1280px) and (max-width: 1439px)
 {
@@ -300,6 +349,18 @@ footer{
         font-size: 3em;
     }
 
+    .m-2-1 span:before, .m-2-1 span:after{
+        width: 6.2em;
+    }
+    
+    .m-2-2 span:before, .m-2-2 span:after{
+        width: 7.2em;
+    }
+    
+    .m-2-3 span:before, .m-2-3 span:after{
+        width: 6.7em;
+    }
+
 }
 @media screen and (min-width: 1440px) and (max-width: 1919px)
 {
@@ -309,8 +370,6 @@ footer{
 
     .ul-m2-1, .ul-m2-2, .ul-m2-3 {
         li{
-            display: flex;
-            justify-content: space-between;
             padding: 1em 3em 1em 3em;
             font-size: 2em;
             text-align: left;
@@ -325,8 +384,24 @@ footer{
         font-size: 2em;
     }
 
+    .m-2-1, .m-2-2, .m-2-3{
+        font-size: 2em;
+    }
+
     .title-m-2{
         font-size: 4em;
+    }
+
+    .m-2-1 span:before, .m-2-1 span:after{
+        width: 4.5em;
+    }
+    
+    .m-2-2 span:before, .m-2-2 span:after{
+        width: 5.55em;
+    }
+    
+    .m-2-3 span:before, .m-2-3 span:after{
+        width: 5em;
     }
 }
 @media screen and (min-width: 1920px)
@@ -337,8 +412,6 @@ footer{
 
     .ul-m2-1, .ul-m2-2, .ul-m2-3 {
         li{
-            display: flex;
-            justify-content: space-between;
             padding: 1em 3em 1em 3em;
             font-size: 2.5em;
             text-align: left;
@@ -358,6 +431,18 @@ footer{
 
     .m-2-1, .m-2-2, .m-2-3{
         font-size: 3em;
+    }
+
+    .m-2-1 span:before, .m-2-1 span:after{
+        width: 3.55em;
+    }
+    
+    .m-2-2 span:before, .m-2-2 span:after{
+        width: 4.55em;
+    }
+    
+    .m-2-3 span:before, .m-2-3 span:after{
+        width: 4em;
     }
 
 }   
