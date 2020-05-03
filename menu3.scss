@@ -7,14 +7,14 @@ h1 a {
     width: 60%;
     height: auto;
     margin: auto;
-    margin-bottom: 80px;
-    margin-top: 80px;
+    margin-bottom: 5em;
+    margin-top: 5em;
     background-color: #F9F9F9;
 }
 
 .header-m-3 {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 3.125em;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -23,7 +23,7 @@ h1 a {
 .title-m-3 {
     font-family: 'Dancing Script', cursive;
     font-size: 4em;
-    margin: 30px 0px;
+    margin-bottom: 1.2em;
     font-weight: lighter;
     background: -webkit-gradient(linear, left top, right bottom, from(#0D47A1), to(#29B6F6));
     -webkit-background-clip: text;
@@ -71,9 +71,9 @@ section {
 .m-3-1:after, .m-3-2:after, .m-3-3:after {
     content: '';
     display: block;
-    height: 4px;
+    height: 0.125em;
     width: 0;
-    border-radius: 10px;
+    border-radius: 0.625em;
     background: -webkit-linear-gradient(to left, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
@@ -138,30 +138,30 @@ footer{
   .m-3-1 span:before, .m-3-1 span:after, .m-3-2 span:before, .m-3-2 span:after, .m-3-3 span:before, .m-3-3 span:after {
     content: "";
     position: absolute;
-    border-radius: 10px;
+    border-radius: 0.625em;
     top: 50%;
   }
   .m-3-1 span:before, .m-3-2 span:before, .m-3-3 span:before {
     right: 100%;
-    margin-right: 15px;
+    margin-right: 0.9375em;
   }
   .m-3-1 span:after, .m-3-2 span:after, .m-3-3 span:after {
     left: 100%;
-    margin-left: 15px;
+    margin-left: 0.9375em;
   }
 
 .m-3-1 span:before, .m-3-1 span:after{
-    border: 2px solid #0D47A1;
+    border: 0.0625em solid #0D47A1;
     width: 4.3em;
 }
 
 .m-3-2 span:before, .m-3-2 span:after{
-    border: 2px solid #2361c2;
+    border: 0.0625em solid #2361c2;
     width: 5em;
 }
 
 .m-3-3 span:before, .m-3-3 span:after{
-    border: 2px solid #1CB5E0;
+    border: 0.0625em solid #1CB5E0;
     width: 5em;
 }
 
@@ -172,7 +172,7 @@ footer{
     }
     
     .header-m-3 {
-        padding-top: 50px;
+        padding-top: 3.125em;
     }
      
     .ul-m3-1, .ul-m3-2, .ul-m3-3 {
@@ -201,7 +201,7 @@ footer{
     }
     
     .header-m-3 {
-        padding-top: 50px;
+        padding-top: 3.125em;
     }
      
     .ul-m3-1, .ul-m3-2, .ul-m3-3 {
@@ -227,7 +227,7 @@ footer{
     }
     
     .header-m-3 {
-        padding-top: 50px;
+        padding-top: 3.125em;
     }
      
     .ul-m3-1, .ul-m3-2, .ul-m3-3 {

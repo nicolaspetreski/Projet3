@@ -33,7 +33,7 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
-  height: 50px;
+  height: 3.125em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -57,11 +57,11 @@ footer a {
 .soon {
   background: #569C87;
   display: inline-block;
-  border-radius: 10px;
+  border-radius: 0.625em;
   padding: 0.3em 1em 0.3em 1em;
   color: #EFC64F;
   margin: 2em 0 3em 0;
-  font-size: 30px;
+  font-size: 1.875em;
   width: 25%;
 }
 
@@ -90,10 +90,10 @@ footer a {
 }
 
 .menu {
-  padding: 250px 0 250px 0;
-  margin: 30px auto 30px auto;
-  -webkit-box-shadow: 0px 1px 18px 3px rgba(0, 0, 0, 0.43);
-  box-shadow: 0px 1px 18px 3px rgba(0, 0, 0, 0.43);
+  padding: 15.625em 0 15.625em 0;
+  margin: 1.875em auto 1.875em auto;
+  -webkit-box-shadow: 0em 0.0625em 1.125em 0.1875em rgba(0, 0, 0, 0.43);
+  box-shadow: 0em 0.0625em 1.125em 0.1875em rgba(0, 0, 0, 0.43);
   width: 35%;
   height: auto;
   overflow: hidden;
@@ -135,13 +135,13 @@ footer a {
 .menu1 a p:nth-child(2) {
   font-family: 'Devonshire', cursive;
   color: #3E2723;
-  font-size: 50px;
+  font-size: 3.125em;
 }
 
 .menu1 a p {
   font-family: 'Sriracha', cursive;
   color: #3E2723;
-  font-size: 50px;
+  font-size: 3.125em;
   font-weight: 700;
 }
 
@@ -155,7 +155,7 @@ footer a {
 
 .menu2 a p:first-child {
   font-family: 'Croissant One', cursive;
-  font-size: 35px;
+  font-size: 2.1875em;
   background: -webkit-gradient(linear, left top, right bottom, from(#FB8C00), to(#7986CB));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -164,7 +164,7 @@ footer a {
 .menu2 a p {
   color: #FB8C00;
   font-family: 'Noto Serif', serif;
-  font-size: 50px;
+  font-size: 3.125em;
   font-weight: 700;
 }
 
@@ -178,7 +178,7 @@ footer a {
 
 .menu3 a p:first-child {
   font-family: 'Dancing Script', cursive;
-  font-size: 50px;
+  font-size: 3.125em;
   background: -webkit-gradient(linear, left top, right bottom, from(#0D47A1), to(#29B6F6));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -186,7 +186,7 @@ footer a {
 
 .menu3 a p {
   font-family: 'Kaushan Script', cursive;
-  font-size: 50px;
+  font-size: 3.125em;
   color: #1976D2;
 }
 
@@ -200,7 +200,7 @@ footer a {
 
 .menu4 a p:first-child {
   font-family: 'Kaushan Script', cursive;
-  font-size: 50px;
+  font-size: 3.125em;
   background: -webkit-gradient(linear, left top, right bottom, from(#33691E), to(#CDDC39));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -208,12 +208,12 @@ footer a {
 
 .menu4 a p {
   font-family: 'Kaushan Script', cursive;
-  font-size: 50px;
+  font-size: 3.125em;
   color: #689F38;
 }
 
 i {
-  font-size: 62px;
+  font-size: 3.875em;
   display: block;
   background: -webkit-gradient(linear, left center, right center, from(#e53935), to(#FB8C00));
   -webkit-background-clip: text;
@@ -300,44 +300,44 @@ span {
     font-size: 0.9em;
   }
   footer {
-    height: 30px;
+    height: 1.875em;
   }
   footer a {
     font-size: 0.7em;
   }
   .soon {
     padding: 0.3em 0em 0.3em 0em;
-    font-size: 10px;
+    font-size: 0.625em;
     width: 30%;
   }
   .menu {
-    padding: 20px 0 20px 0;
+    padding: 1.25em 0em 1.25em 0em;
     width: 100%;
-    height: 150px;
+    height: 9.375em;
   }
   .menu1 a p:nth-child(2) {
-    font-size: 20px;
+    font-size: 1.25em;
   }
   .menu1 a p {
-    font-size: 20px;
+    font-size: 1.25em;
   }
   .menu2 a p:first-child {
-    font-size: 15px;
+    font-size: 0.9375em;
   }
   .menu2 a p {
-    font-size: 20px;
+    font-size: 1.25em;
   }
   .menu3 a p:first-child {
-    font-size: 20px;
+    font-size: 1.25em;
   }
   .menu3 a p {
-    font-size: 20px;
+    font-size: 1.25em;
   }
   .menu4 a p:first-child {
-    font-size: 20px;
+    font-size: 1.25em;
   }
   .menu4 a p {
-    font-size: 20px;
+    font-size: 1.25em;
   }
 }
 
@@ -346,7 +346,7 @@ span {
     font-size: 0.9em;
   }
   footer {
-    height: 30px;
+    height: 1.875em;
   }
   footer a {
     font-size: 0.9em;
@@ -357,33 +357,33 @@ span {
     width: 30%;
   }
   .menu {
-    padding: 20px 0 20px 0;
+    padding: 1.25em 0em 1.25em 0em;
     width: 100%;
-    height: 180px;
+    height: 11.25em;
   }
   .menu1 a p:nth-child(2) {
-    font-size: 25px;
+    font-size: 1.5625em;
   }
   .menu1 a p {
-    font-size: 25px;
+    font-size: 1.5625em;
   }
   .menu2 a p:first-child {
-    font-size: 20px;
+    font-size: 1.25em;
   }
   .menu2 a p {
-    font-size: 25px;
+    font-size: 1.5625em;
   }
   .menu3 a p:first-child {
-    font-size: 25px;
+    font-size: 1.5625em;
   }
   .menu3 a p {
-    font-size: 25px;
+    font-size: 1.5625em;
   }
   .menu4 a p:first-child {
-    font-size: 25px;
+    font-size: 1.5625em;
   }
   .menu4 a p {
-    font-size: 25px;
+    font-size: 1.5625em;
   }
 }
 
@@ -392,7 +392,7 @@ span {
     font-size: 1.1em;
   }
   footer {
-    height: 30px;
+    height: 1.875em;
   }
   footer a {
     font-size: 1.1em;
@@ -403,33 +403,33 @@ span {
     width: 20%;
   }
   .menu {
-    padding: 20px 0 20px 0;
+    padding: 1.25em 0em 1.25em 0em;
     width: 100%;
-    height: 220px;
+    height: 13.75em;
   }
   .menu1 a p:nth-child(2) {
-    font-size: 35px;
+    font-size: 2.1875em;
   }
   .menu1 a p {
-    font-size: 35px;
+    font-size: 2.1875em;
   }
   .menu2 a p:first-child {
-    font-size: 30px;
+    font-size: 1.875em;
   }
   .menu2 a p {
-    font-size: 35px;
+    font-size: 2.1875em;
   }
   .menu3 a p:first-child {
-    font-size: 35px;
+    font-size: 2.1875em;
   }
   .menu3 a p {
-    font-size: 35px;
+    font-size: 2.1875em;
   }
   .menu4 a p:first-child {
-    font-size: 30px;
+    font-size: 1.875em;
   }
   .menu4 a p {
-    font-size: 30px;
+    font-size: 1.875em;
   }
 }
 
@@ -438,7 +438,7 @@ span {
     font-size: 1.2em;
   }
   footer {
-    height: 30px;
+    height: 1.875em;
   }
   footer a {
     font-size: 1.2em;
@@ -449,32 +449,32 @@ span {
     width: 17%;
   }
   .menu {
-    padding: 20px 0 20px 0;
-    height: 550px;
+    padding: 1.25em 0em 1.25em 0em;
+    height: 34.375em;
   }
   .menu1 a p:nth-child(2) {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu1 a p {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu2 a p:first-child {
-    font-size: 35px;
+    font-size: 2.1875em;
   }
   .menu2 a p {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu3 a p:first-child {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu3 a p {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu4 a p:first-child {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu4 a p {
-    font-size: 40px;
+    font-size: 2.5em;
   }
 }
 
@@ -483,7 +483,7 @@ span {
     font-size: 1.3em;
   }
   footer {
-    height: 30px;
+    height: 1.875em;
   }
   footer a {
     font-size: 1.3em;
@@ -494,32 +494,32 @@ span {
     width: 17%;
   }
   .menu {
-    padding: 20px 0 20px 0;
-    height: 550px;
+    padding: 1.25em 0em 1.25em 0em;
+    height: 34.375em;
   }
   .menu1 a p:nth-child(2) {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu1 a p {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu2 a p:first-child {
-    font-size: 35px;
+    font-size: 2.1875em;
   }
   .menu2 a p {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu3 a p:first-child {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu3 a p {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu4 a p:first-child {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu4 a p {
-    font-size: 40px;
+    font-size: 2.5em;
   }
 }
 
@@ -528,7 +528,7 @@ span {
     font-size: 1.4em;
   }
   footer {
-    height: 30px;
+    height: 1.875em;
   }
   footer a {
     font-size: 1.1em;
@@ -539,32 +539,32 @@ span {
     width: 15%;
   }
   .menu {
-    padding: 20px 0 20px 0;
-    height: 550px;
+    padding: 1.25em 0em 1.25em 0em;
+    height: 34.375em;
   }
   .menu1 a p:nth-child(2) {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu1 a p {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu2 a p:first-child {
-    font-size: 35px;
+    font-size: 2.1875em;
   }
   .menu2 a p {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu3 a p:first-child {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu3 a p {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu4 a p:first-child {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu4 a p {
-    font-size: 40px;
+    font-size: 2.5em;
   }
 }
 
@@ -573,7 +573,7 @@ span {
     font-size: 1.4em;
   }
   footer {
-    height: 50px;
+    height: 3.125em;
   }
   footer a {
     font-size: 1.1em;
@@ -591,32 +591,32 @@ span {
         justify-content: space-around;
   }
   .menu {
-    padding: 20px 0 20px 0;
-    height: 750px;
+    padding: 1.25em 0em 1.25em 0em;
+    height: 46.875em;
   }
   .menu1 a p:nth-child(2) {
-    font-size: 55px;
+    font-size: 3.4375em;
   }
   .menu1 a p {
-    font-size: 55px;
+    font-size: 3.4375em;
   }
   .menu2 a p:first-child {
-    font-size: 50px;
+    font-size: 3.125em;
   }
   .menu2 a p {
-    font-size: 55px;
+    font-size: 3.4375em;
   }
   .menu3 a p:first-child {
-    font-size: 55px;
+    font-size: 3.4375em;
   }
   .menu3 a p {
-    font-size: 55px;
+    font-size: 3.4375em;
   }
   .menu4 a p:first-child {
-    font-size: 55px;
+    font-size: 3.4375em;
   }
   .menu4 a p {
-    font-size: 55px;
+    font-size: 3.4375em;
   }
 }
 
@@ -629,14 +629,14 @@ h1 a {
   width: 60%;
   height: auto;
   margin: auto;
-  margin-bottom: 80px;
-  margin-top: 80px;
+  margin-bottom: 5em;
+  margin-top: 5em;
   background-color: #FCDFDB;
 }
 
 .header-m-1 {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 3.125em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -653,7 +653,7 @@ h1 a {
   font-family: 'Devonshire', cursive;
   font-size: 4em;
   color: #3e2723;
-  margin: 30px 0px;
+  margin-bottom: 1.2em;
   font-weight: lighter;
 }
 
@@ -691,7 +691,7 @@ section {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  padding-bottom: 30px;
+  padding-bottom: 1.875em;
 }
 
 .bottom-m-1 i {
@@ -728,9 +728,9 @@ section {
 .m-1:after {
   content: '';
   display: block;
-  height: 4px;
+  height: 0.125em;
   width: 0;
-  border-radius: 10px;
+  border-radius: 0.625em;
   background: transparent;
   background: -webkit-gradient(linear, left top, right top, from(#3e2723), color-stop(#4e342e), color-stop(#6d4c41), color-stop(#8d6e63), color-stop(#8d6e63), to(#bcaaa4));
   background: linear-gradient(to right, #3e2723, #4e342e, #6d4c41, #8d6e63, #8d6e63, #bcaaa4);
@@ -796,22 +796,22 @@ footer div {
 .m-1 span:before, .m-1 span:after {
   content: "";
   position: absolute;
-  border-radius: 10px;
+  border-radius: 0.625em;
   top: 50%;
 }
 
 .m-1 span:before {
   right: 100%;
-  margin-right: 15px;
+  margin-right: 0.625em;
 }
 
 .m-1 span:after {
   left: 100%;
-  margin-left: 15px;
+  margin-left: 0.625em;
 }
 
 .m-1 span:before, .m-1 span:after {
-  border: 2px solid #3e2723;
+  border: 0.0625em solid #3e2723;
   width: 4.3em;
 }
 
@@ -820,7 +820,7 @@ footer div {
     width: 90%;
   }
   .header-m-1 {
-    padding-top: 50px;
+    padding-top: 3.125em;
   }
   .ul-m1 {
     list-style: none;
@@ -848,7 +848,7 @@ footer div {
     width: 90%;
   }
   .header-m-1 {
-    padding-top: 50px;
+    padding-top: 3.125em;
   }
   .ul-m1 {
     list-style: none;
@@ -863,7 +863,7 @@ footer div {
     padding: 1em 2em 1em 2em;
   }
   .bottom-m-1 {
-    padding-bottom: 20px;
+    padding-bottom: 1.25em;
   }
 }
 
@@ -872,13 +872,13 @@ footer div {
     width: 80%;
   }
   .header-m-1 {
-    padding-top: 50px;
+    padding-top: 3.125em;
   }
   .ul-m1 li {
     padding: 1em 3em 1em 3em;
   }
   .bottom-m-1 {
-    padding-bottom: 20px;
+    padding-bottom: 1.25em;
   }
 }
 
@@ -971,14 +971,14 @@ h1 a {
   width: 60%;
   height: auto;
   margin: auto;
-  margin-bottom: 80px;
-  margin-top: 80px;
+  margin-bottom: 5em;
+  margin-top: 5em;
   background-color: #FEF5FD;
 }
 
 .header-m-2 {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 3.125em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -995,7 +995,7 @@ h1 a {
   font-family: 'Croissant One', cursive;
   font-size: 3em;
   color: #3e2723;
-  margin: 30px 0px;
+  margin-bottom: 1.2em;
   font-weight: lighter;
   background: -webkit-gradient(linear, left top, right bottom, from(#FB8C00), to(#5464b4));
   -webkit-background-clip: text;
@@ -1027,15 +1027,15 @@ section {
 }
 
 .m-2-1, .ul-m2-1 li {
-  color: orange;
+  color: #FFB74D;
 }
 
 .m-2-2, .ul-m2-2 li {
-  color: blueviolet;
+  color: #7E57C2;
 }
 
 .m-2-3, .ul-m2-3 li {
-  color: blue;
+  color: #1565C0;
 }
 
 .title-m-2, .ul-m2-1 li, .ul-m2-2 li, .ul-m2-3 li {
@@ -1058,9 +1058,9 @@ section {
 .m-2-1:after, .m-2-2:after, .m-2-3:after {
   content: '';
   display: block;
-  height: 4px;
+  height: 0.125em;
   width: 0;
-  border-radius: 10px;
+  border-radius: 0.625em;
   /* Chrome 10-25, Safari 5.1-6 */
   background: -webkit-gradient(linear, right top, left top, from(#4BC0C8), color-stop(#C779D0), to(#FEAC5E));
   background: linear-gradient(to left, #4BC0C8, #C779D0, #FEAC5E);
@@ -1081,33 +1081,33 @@ section {
 .m-2-1 span:before, .m-2-1 span:after, .m-2-2 span:before, .m-2-2 span:after, .m-2-3 span:before, .m-2-3 span:after {
   content: "";
   position: absolute;
-  border-radius: 10px;
+  border-radius: 0.625em;
   top: 50%;
 }
 
 .m-2-1 span:before, .m-2-2 span:before, .m-2-3 span:before {
   right: 100%;
-  margin-right: 15px;
+  margin-right: 0.9375em;
 }
 
 .m-2-1 span:after, .m-2-2 span:after, .m-2-3 span:after {
   left: 100%;
-  margin-left: 15px;
+  margin-left: 0.9375em;
 }
 
 .m-2-1 span:before, .m-2-1 span:after {
-  border: 2px solid #FB8C00;
+  border: 0.0625em solid #FB8C00;
   width: 4.3em;
 }
 
 .m-2-2 span:before, .m-2-2 span:after {
-  border: 2px solid #C779D0;
+  border: 0.0625em solid #C779D0;
   width: 5em;
   margin: 0em 0.6em 0em 0.6em;
 }
 
 .m-2-3 span:before, .m-2-3 span:after {
-  border: 2px solid #4BC0C8;
+  border: 0.0625em solid #4BC0C8;
   width: 5em;
   margin: 0em 0.1em 0em 0.1em;
 }
@@ -1163,7 +1163,7 @@ footer div {
     width: 90%;
   }
   .header-m-2 {
-    padding-top: 50px;
+    padding-top: 3.125em;
   }
   .ul-m2-1, .ul-m2-2, .ul-m2-3 {
     list-style: none;
@@ -1194,7 +1194,7 @@ footer div {
     width: 90%;
   }
   .header-m-2 {
-    padding-top: 50px;
+    padding-top: 3.125em;
   }
   .ul-m2-1, .ul-m2-2, .ul-m2-3 {
     list-style: none;
@@ -1219,7 +1219,7 @@ footer div {
     width: 80%;
   }
   .header-m-2 {
-    padding-top: 50px;
+    padding-top: 3.125em;
   }
   .ul-m2-1 li, .ul-m2-2 li, .ul-m2-3 li {
     padding: 1em 3em 1em 3em;
@@ -1327,14 +1327,14 @@ h1 a {
   width: 60%;
   height: auto;
   margin: auto;
-  margin-bottom: 80px;
-  margin-top: 80px;
+  margin-bottom: 5em;
+  margin-top: 5em;
   background-color: #F9F9F9;
 }
 
 .header-m-3 {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 3.125em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1350,7 +1350,7 @@ h1 a {
 .title-m-3 {
   font-family: 'Dancing Script', cursive;
   font-size: 4em;
-  margin: 30px 0px;
+  margin-bottom: 1.2em;
   font-weight: lighter;
   background: -webkit-gradient(linear, left top, right bottom, from(#0D47A1), to(#29B6F6));
   -webkit-background-clip: text;
@@ -1402,9 +1402,9 @@ section {
 .m-3-1:after, .m-3-2:after, .m-3-3:after {
   content: '';
   display: block;
-  height: 4px;
+  height: 0.125em;
   width: 0;
-  border-radius: 10px;
+  border-radius: 0.625em;
   /* Chrome 10-25, Safari 5.1-6 */
   background: -webkit-gradient(linear, right top, left top, from(#1CB5E0), to(#000046));
   background: linear-gradient(to left, #1CB5E0, #000046);
@@ -1471,32 +1471,32 @@ footer div {
 .m-3-1 span:before, .m-3-1 span:after, .m-3-2 span:before, .m-3-2 span:after, .m-3-3 span:before, .m-3-3 span:after {
   content: "";
   position: absolute;
-  border-radius: 10px;
+  border-radius: 0.625em;
   top: 50%;
 }
 
 .m-3-1 span:before, .m-3-2 span:before, .m-3-3 span:before {
   right: 100%;
-  margin-right: 15px;
+  margin-right: 0.9375em;
 }
 
 .m-3-1 span:after, .m-3-2 span:after, .m-3-3 span:after {
   left: 100%;
-  margin-left: 15px;
+  margin-left: 0.9375em;
 }
 
 .m-3-1 span:before, .m-3-1 span:after {
-  border: 2px solid #0D47A1;
+  border: 0.0625em solid #0D47A1;
   width: 4.3em;
 }
 
 .m-3-2 span:before, .m-3-2 span:after {
-  border: 2px solid #2361c2;
+  border: 0.0625em solid #2361c2;
   width: 5em;
 }
 
 .m-3-3 span:before, .m-3-3 span:after {
-  border: 2px solid #1CB5E0;
+  border: 0.0625em solid #1CB5E0;
   width: 5em;
 }
 
@@ -1505,7 +1505,7 @@ footer div {
     width: 90%;
   }
   .header-m-3 {
-    padding-top: 50px;
+    padding-top: 3.125em;
   }
   .ul-m3-1, .ul-m3-2, .ul-m3-3 {
     list-style: none;
@@ -1536,7 +1536,7 @@ footer div {
     width: 90%;
   }
   .header-m-3 {
-    padding-top: 50px;
+    padding-top: 3.125em;
   }
   .ul-m3-1, .ul-m3-2, .ul-m3-3 {
     list-style: none;
@@ -1561,7 +1561,7 @@ footer div {
     width: 80%;
   }
   .header-m-3 {
-    padding-top: 50px;
+    padding-top: 3.125em;
   }
   .ul-m3-1 li, .ul-m3-2 li, .ul-m3-3 li {
     padding: 1em 3em 1em 3em;
@@ -1666,14 +1666,14 @@ h1 a {
   width: 60%;
   height: auto;
   margin: auto;
-  margin-bottom: 80px;
-  margin-top: 80px;
+  margin-bottom: 5em;
+  margin-top: 5em;
   background-color: #FDFFFD;
 }
 
 .header-m-4 {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 3.125em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1689,7 +1689,7 @@ h1 a {
 .title-m-4 {
   font-family: 'Kaushan Script', cursive;
   font-size: 4em;
-  margin: 30px 0px;
+  margin-bottom: 1.2em;
   font-weight: lighter;
   background: -webkit-gradient(linear, left top, right bottom, from(#33691E), to(#CDDC39));
   -webkit-background-clip: text;
@@ -1737,9 +1737,9 @@ section {
 .m-4-1:after, .m-4-2:after, .m-4-3:after {
   content: '';
   display: block;
-  height: 4px;
+  height: 0.125em;
   width: 0;
-  border-radius: 10px;
+  border-radius: 0.625em;
   /* Chrome 10-25, Safari 5.1-6 */
   background: -webkit-gradient(linear, left top, right top, from(#061700), to(#52c234));
   background: linear-gradient(to right, #061700, #52c234);
@@ -1806,20 +1806,20 @@ footer div {
 .m-4-1 span:before, .m-4-1 span:after, .m-4-2 span:before, .m-4-2 span:after, .m-4-3 span:before, .m-4-3 span:after {
   content: '';
   position: absolute;
-  border-radius: 10px;
+  border-radius: 0.625em;
   top: 50%;
   width: 4.3em;
-  border: 2px solid yellowgreen;
+  border: 0.0625em solid yellowgreen;
 }
 
 .m-4-1 span:before, .m-4-2 span:before, .m-4-3 span:before {
   right: 100%;
-  margin-right: 15px;
+  margin-right: 0.9375em;
 }
 
 .m-4-1 span:after, .m-4-2 span:after, .m-4-3 span:after {
   left: 100%;
-  margin-left: 15px;
+  margin-left: 0.9375em;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
@@ -1827,7 +1827,7 @@ footer div {
     width: 90%;
   }
   .header-m-4 {
-    padding-top: 50px;
+    padding-top: 3.125em;
   }
   .ul-m4-1, .ul-m4-2, .ul-m4-3 {
     list-style: none;
@@ -1858,7 +1858,7 @@ footer div {
     width: 90%;
   }
   .header-m-4 {
-    padding-top: 50px;
+    padding-top: 3.125em;
   }
   .ul-m4-1, .ul-m4-2, .ul-m4-3 {
     list-style: none;
@@ -1883,7 +1883,7 @@ footer div {
     width: 80%;
   }
   .header-m-4 {
-    padding-top: 50px;
+    padding-top: 3.125em;
   }
   .ul-m4-1 li, .ul-m4-2 li, .ul-m4-3 li {
     padding: 1em 2em 1em 2em;
@@ -1985,18 +1985,27 @@ footer div {
   padding-bottom: 6em;
 }
 
+.container5 h2 {
+  text-align: justify;
+  text-align: center;
+  margin: 2em 5em 2em 5em;
+}
+
+.container5 h3 {
+  text-align: justify;
+  text-align: center;
+  margin: 2em 7em 1em 7em;
+}
+
+.container5 p {
+  text-align: justify;
+  text-align: center;
+  margin: 1em 20em 1em 20em;
+}
+
 h1 a {
   text-decoration: none;
   color: #EFC64F;
-}
-
-.fixed {
-  position: absolute;
-  bottom: 0;
-}
-
-.fixed div {
-  width: 30%;
 }
 
 .retour:hover {

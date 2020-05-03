@@ -6,14 +6,14 @@ h1 a {
     width: 60%;
     height: auto;
     margin: auto;
-    margin-bottom: 80px;
-    margin-top: 80px;
+    margin-bottom: 5em;
+    margin-top: 5em;
     background-color: #FCDFDB;
 }
 
 .header-m-1 {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 3.125em;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -23,7 +23,7 @@ h1 a {
     font-family: 'Devonshire', cursive;
     font-size: 4em;
     color: #3e2723;
-    margin: 30px 0px;
+    margin-bottom: 1.2em;
     font-weight: lighter;
 }
 
@@ -52,7 +52,7 @@ section{
     display: inline-flex;
     justify-content: center;
     width: 100%;
-    padding-bottom: 30px;
+    padding-bottom: 1.875em;
         
         i{
             font-size: 2em;
@@ -85,9 +85,9 @@ section{
 .m-1:after {
     content: '';
     display: block;
-    height: 4px;
+    height: 0.125em;
     width: 0;
-    border-radius: 10px;
+    border-radius: 0.625em;
     background: transparent;
     background: -webkit-gradient(linear, left bottom, right bottom, from(#3e2723), color-stop(#4e342e), color-stop(#6d4c41), color-stop(#8d6e63), to(#bcaaa4));
     background: linear-gradient(to right, #3e2723, #4e342e, #6d4c41, #8d6e63, #8d6e63, #bcaaa4);
@@ -152,20 +152,20 @@ footer{
   .m-1 span:before, .m-1 span:after{
     content: "";
     position: absolute;
-    border-radius: 10px;
+    border-radius: 0.625em;
     top: 50%;
   }
   .m-1 span:before {
     right: 100%;
-    margin-right: 15px;
+    margin-right: 0.625em;
   }
   .m-1 span:after {
     left: 100%;
-    margin-left: 15px;
+    margin-left: 0.625em;
   }
 
   .m-1 span:before, .m-1 span:after{
-    border: 2px solid #3e2723;
+    border: 0.0625em solid #3e2723;
     width: 4.3em;
 }
 
@@ -177,7 +177,7 @@ footer{
     }
     
     .header-m-1 {
-        padding-top: 50px;
+        padding-top: 3.125em;
     }
      
     .ul-m1 {
@@ -202,7 +202,7 @@ footer{
     }
     
     .header-m-1 {
-        padding-top: 50px;
+        padding-top: 3.125em;
     }
      
     .ul-m1 {
@@ -215,7 +215,7 @@ footer{
     }
       
     .bottom-m-1 {
-        padding-bottom: 20px;
+        padding-bottom: 1.25em;
     }
 
 
@@ -227,7 +227,7 @@ footer{
     }
     
     .header-m-1 {
-        padding-top: 50px;
+        padding-top: 3.125em;
     }
      
     .ul-m1 {
@@ -237,7 +237,7 @@ footer{
     }
       
     .bottom-m-1 {
-        padding-bottom: 20px;
+        padding-bottom: 1.25em;
     }
 
 

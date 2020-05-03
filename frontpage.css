@@ -33,7 +33,7 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
-  height: 50px;
+  height: 3.125em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -57,11 +57,11 @@ footer a {
 .soon {
   background: #569C87;
   display: inline-block;
-  border-radius: 10px;
+  border-radius: 0.625em;
   padding: 0.3em 1em 0.3em 1em;
   color: #EFC64F;
   margin: 2em 0 3em 0;
-  font-size: 30px;
+  font-size: 1.875em;
   width: 25%;
 }
 
@@ -90,10 +90,10 @@ footer a {
 }
 
 .menu {
-  padding: 250px 0 250px 0;
-  margin: 30px auto 30px auto;
-  -webkit-box-shadow: 0px 1px 18px 3px rgba(0, 0, 0, 0.43);
-  box-shadow: 0px 1px 18px 3px rgba(0, 0, 0, 0.43);
+  padding: 15.625em 0 15.625em 0;
+  margin: 1.875em auto 1.875em auto;
+  -webkit-box-shadow: 0em 0.0625em 1.125em 0.1875em rgba(0, 0, 0, 0.43);
+  box-shadow: 0em 0.0625em 1.125em 0.1875em rgba(0, 0, 0, 0.43);
   width: 35%;
   height: auto;
   overflow: hidden;
@@ -135,13 +135,13 @@ footer a {
 .menu1 a p:nth-child(2) {
   font-family: 'Devonshire', cursive;
   color: #3E2723;
-  font-size: 50px;
+  font-size: 3.125em;
 }
 
 .menu1 a p {
   font-family: 'Sriracha', cursive;
   color: #3E2723;
-  font-size: 50px;
+  font-size: 3.125em;
   font-weight: 700;
 }
 
@@ -155,7 +155,7 @@ footer a {
 
 .menu2 a p:first-child {
   font-family: 'Croissant One', cursive;
-  font-size: 35px;
+  font-size: 2.1875em;
   background: -webkit-gradient(linear, left top, right bottom, from(#FB8C00), to(#7986CB));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -164,7 +164,7 @@ footer a {
 .menu2 a p {
   color: #FB8C00;
   font-family: 'Noto Serif', serif;
-  font-size: 50px;
+  font-size: 3.125em;
   font-weight: 700;
 }
 
@@ -178,7 +178,7 @@ footer a {
 
 .menu3 a p:first-child {
   font-family: 'Dancing Script', cursive;
-  font-size: 50px;
+  font-size: 3.125em;
   background: -webkit-gradient(linear, left top, right bottom, from(#0D47A1), to(#29B6F6));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -186,7 +186,7 @@ footer a {
 
 .menu3 a p {
   font-family: 'Kaushan Script', cursive;
-  font-size: 50px;
+  font-size: 3.125em;
   color: #1976D2;
 }
 
@@ -200,7 +200,7 @@ footer a {
 
 .menu4 a p:first-child {
   font-family: 'Kaushan Script', cursive;
-  font-size: 50px;
+  font-size: 3.125em;
   background: -webkit-gradient(linear, left top, right bottom, from(#33691E), to(#CDDC39));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -208,12 +208,12 @@ footer a {
 
 .menu4 a p {
   font-family: 'Kaushan Script', cursive;
-  font-size: 50px;
+  font-size: 3.125em;
   color: #689F38;
 }
 
 i {
-  font-size: 62px;
+  font-size: 3.875em;
   display: block;
   background: -webkit-gradient(linear, left center, right center, from(#e53935), to(#FB8C00));
   -webkit-background-clip: text;
@@ -300,44 +300,44 @@ span {
     font-size: 0.9em;
   }
   footer {
-    height: 30px;
+    height: 1.875em;
   }
   footer a {
     font-size: 0.7em;
   }
   .soon {
     padding: 0.3em 0em 0.3em 0em;
-    font-size: 10px;
+    font-size: 0.625em;
     width: 30%;
   }
   .menu {
-    padding: 20px 0 20px 0;
+    padding: 1.25em 0em 1.25em 0em;
     width: 100%;
-    height: 150px;
+    height: 9.375em;
   }
   .menu1 a p:nth-child(2) {
-    font-size: 20px;
+    font-size: 1.25em;
   }
   .menu1 a p {
-    font-size: 20px;
+    font-size: 1.25em;
   }
   .menu2 a p:first-child {
-    font-size: 15px;
+    font-size: 0.9375em;
   }
   .menu2 a p {
-    font-size: 20px;
+    font-size: 1.25em;
   }
   .menu3 a p:first-child {
-    font-size: 20px;
+    font-size: 1.25em;
   }
   .menu3 a p {
-    font-size: 20px;
+    font-size: 1.25em;
   }
   .menu4 a p:first-child {
-    font-size: 20px;
+    font-size: 1.25em;
   }
   .menu4 a p {
-    font-size: 20px;
+    font-size: 1.25em;
   }
 }
 
@@ -346,7 +346,7 @@ span {
     font-size: 0.9em;
   }
   footer {
-    height: 30px;
+    height: 1.875em;
   }
   footer a {
     font-size: 0.9em;
@@ -357,33 +357,33 @@ span {
     width: 30%;
   }
   .menu {
-    padding: 20px 0 20px 0;
+    padding: 1.25em 0em 1.25em 0em;
     width: 100%;
-    height: 180px;
+    height: 11.25em;
   }
   .menu1 a p:nth-child(2) {
-    font-size: 25px;
+    font-size: 1.5625em;
   }
   .menu1 a p {
-    font-size: 25px;
+    font-size: 1.5625em;
   }
   .menu2 a p:first-child {
-    font-size: 20px;
+    font-size: 1.25em;
   }
   .menu2 a p {
-    font-size: 25px;
+    font-size: 1.5625em;
   }
   .menu3 a p:first-child {
-    font-size: 25px;
+    font-size: 1.5625em;
   }
   .menu3 a p {
-    font-size: 25px;
+    font-size: 1.5625em;
   }
   .menu4 a p:first-child {
-    font-size: 25px;
+    font-size: 1.5625em;
   }
   .menu4 a p {
-    font-size: 25px;
+    font-size: 1.5625em;
   }
 }
 
@@ -392,7 +392,7 @@ span {
     font-size: 1.1em;
   }
   footer {
-    height: 30px;
+    height: 1.875em;
   }
   footer a {
     font-size: 1.1em;
@@ -403,33 +403,33 @@ span {
     width: 20%;
   }
   .menu {
-    padding: 20px 0 20px 0;
+    padding: 1.25em 0em 1.25em 0em;
     width: 100%;
-    height: 220px;
+    height: 13.75em;
   }
   .menu1 a p:nth-child(2) {
-    font-size: 35px;
+    font-size: 2.1875em;
   }
   .menu1 a p {
-    font-size: 35px;
+    font-size: 2.1875em;
   }
   .menu2 a p:first-child {
-    font-size: 30px;
+    font-size: 1.875em;
   }
   .menu2 a p {
-    font-size: 35px;
+    font-size: 2.1875em;
   }
   .menu3 a p:first-child {
-    font-size: 35px;
+    font-size: 2.1875em;
   }
   .menu3 a p {
-    font-size: 35px;
+    font-size: 2.1875em;
   }
   .menu4 a p:first-child {
-    font-size: 30px;
+    font-size: 1.875em;
   }
   .menu4 a p {
-    font-size: 30px;
+    font-size: 1.875em;
   }
 }
 
@@ -438,7 +438,7 @@ span {
     font-size: 1.2em;
   }
   footer {
-    height: 30px;
+    height: 1.875em;
   }
   footer a {
     font-size: 1.2em;
@@ -449,32 +449,32 @@ span {
     width: 17%;
   }
   .menu {
-    padding: 20px 0 20px 0;
-    height: 550px;
+    padding: 1.25em 0em 1.25em 0em;
+    height: 34.375em;
   }
   .menu1 a p:nth-child(2) {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu1 a p {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu2 a p:first-child {
-    font-size: 35px;
+    font-size: 2.1875em;
   }
   .menu2 a p {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu3 a p:first-child {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu3 a p {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu4 a p:first-child {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu4 a p {
-    font-size: 40px;
+    font-size: 2.5em;
   }
 }
 
@@ -483,7 +483,7 @@ span {
     font-size: 1.3em;
   }
   footer {
-    height: 30px;
+    height: 1.875em;
   }
   footer a {
     font-size: 1.3em;
@@ -494,32 +494,32 @@ span {
     width: 17%;
   }
   .menu {
-    padding: 20px 0 20px 0;
-    height: 550px;
+    padding: 1.25em 0em 1.25em 0em;
+    height: 34.375em;
   }
   .menu1 a p:nth-child(2) {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu1 a p {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu2 a p:first-child {
-    font-size: 35px;
+    font-size: 2.1875em;
   }
   .menu2 a p {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu3 a p:first-child {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu3 a p {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu4 a p:first-child {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu4 a p {
-    font-size: 40px;
+    font-size: 2.5em;
   }
 }
 
@@ -528,7 +528,7 @@ span {
     font-size: 1.4em;
   }
   footer {
-    height: 30px;
+    height: 1.875em;
   }
   footer a {
     font-size: 1.1em;
@@ -539,32 +539,32 @@ span {
     width: 15%;
   }
   .menu {
-    padding: 20px 0 20px 0;
-    height: 550px;
+    padding: 1.25em 0em 1.25em 0em;
+    height: 34.375em;
   }
   .menu1 a p:nth-child(2) {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu1 a p {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu2 a p:first-child {
-    font-size: 35px;
+    font-size: 2.1875em;
   }
   .menu2 a p {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu3 a p:first-child {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu3 a p {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu4 a p:first-child {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .menu4 a p {
-    font-size: 40px;
+    font-size: 2.5em;
   }
 }
 
@@ -573,7 +573,7 @@ span {
     font-size: 1.4em;
   }
   footer {
-    height: 50px;
+    height: 3.125em;
   }
   footer a {
     font-size: 1.1em;
@@ -591,32 +591,32 @@ span {
         justify-content: space-around;
   }
   .menu {
-    padding: 20px 0 20px 0;
-    height: 750px;
+    padding: 1.25em 0em 1.25em 0em;
+    height: 46.875em;
   }
   .menu1 a p:nth-child(2) {
-    font-size: 55px;
+    font-size: 3.4375em;
   }
   .menu1 a p {
-    font-size: 55px;
+    font-size: 3.4375em;
   }
   .menu2 a p:first-child {
-    font-size: 50px;
+    font-size: 3.125em;
   }
   .menu2 a p {
-    font-size: 55px;
+    font-size: 3.4375em;
   }
   .menu3 a p:first-child {
-    font-size: 55px;
+    font-size: 3.4375em;
   }
   .menu3 a p {
-    font-size: 55px;
+    font-size: 3.4375em;
   }
   .menu4 a p:first-child {
-    font-size: 55px;
+    font-size: 3.4375em;
   }
   .menu4 a p {
-    font-size: 55px;
+    font-size: 3.4375em;
   }
 }
 /*# sourceMappingURL=frontpage.css.map */

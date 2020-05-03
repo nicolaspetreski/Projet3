@@ -7,14 +7,14 @@ h1 a {
     width: 60%;
     height: auto;
     margin: auto;
-    margin-bottom: 80px;
-    margin-top: 80px;
+    margin-bottom: 5em;
+    margin-top: 5em;
     background-color: #FDFFFD;
 }
 
 .header-m-4 {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 3.125em;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -23,7 +23,7 @@ h1 a {
 .title-m-4 {
     font-family: 'Kaushan Script', cursive;
     font-size: 4em;
-    margin: 30px 0px;
+    margin-bottom: 1.2em;
     font-weight: lighter;
     background: -webkit-gradient(linear, left top, right bottom, from(#33691E), to(#CDDC39));
     -webkit-background-clip: text;
@@ -67,9 +67,9 @@ section {
 .m-4-1:after, .m-4-2:after, .m-4-3:after {
     content: '';
     display: block;
-    height: 4px;
+    height: 0.125em;
     width: 0;
-    border-radius: 10px;
+    border-radius: 0.625em;
     background: -webkit-linear-gradient(to right, #061700, #52c234);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #061700, #52c234); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
@@ -134,20 +134,20 @@ footer{
   .m-4-1 span:before, .m-4-1 span:after, .m-4-2 span:before, .m-4-2 span:after, .m-4-3 span:before, .m-4-3 span:after {
     content: '';
     position: absolute;
-    border-radius: 10px;
+    border-radius: 0.625em;
     top: 50%;
     width: 4.3em;
-    border: 2px solid yellowgreen;
+    border: 0.0625em solid yellowgreen;
   }
 
   .m-4-1 span:before, .m-4-2 span:before, .m-4-3 span:before {
     right: 100%;
-    margin-right: 15px;
+    margin-right: 0.9375em;
   }
 
   .m-4-1 span:after, .m-4-2 span:after, .m-4-3 span:after {
     left: 100%;
-    margin-left: 15px;
+    margin-left: 0.9375em;
   }
 
 @media only screen and (min-width: 320px) and (max-width: 479px)
@@ -157,7 +157,7 @@ footer{
     }
     
     .header-m-4 {
-        padding-top: 50px;
+        padding-top: 3.125em;
     }
      
     .ul-m4-1, .ul-m4-2, .ul-m4-3 {
@@ -186,7 +186,7 @@ footer{
     }
     
     .header-m-4 {
-        padding-top: 50px;
+        padding-top: 3.125em;
     }
      
     .ul-m4-1, .ul-m4-2, .ul-m4-3 {
@@ -212,7 +212,7 @@ footer{
     }
     
     .header-m-4 {
-        padding-top: 50px;
+        padding-top: 3.125em;
     }
      
     .ul-m4-1, .ul-m4-2, .ul-m4-3 {
