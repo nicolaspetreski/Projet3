@@ -1,19 +1,27 @@
 .container5{
     padding-top: 6em;
     padding-bottom: 6em;
+
+        h2{
+            text-align: justify;
+            text-align: center;
+            margin: 2em 5em 2em 5em;
+        }
+        h3{
+            text-align: justify;
+            text-align: center;
+            margin: 2em 7em 1em 7em;
+        }
+        p{
+            text-align: justify;
+            text-align: center;
+            margin: 1em 20em 1em 20em;
+        }
 }
 
 h1 a{
     text-decoration: none;
     color: #EFC64F;
-}
-
-.fixed{
-    position: absolute;
-    bottom:0;
-    div{
-        width: 30%;
-    }
 }
 
 .retour:hover{
