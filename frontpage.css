@@ -60,10 +60,9 @@ footer a {
   border-radius: 0.625em;
   padding: 0.3em 1em 0.3em 1em;
   color: #EFC64F;
-  margin: 2em 0 3em 0;
-  font-size: 1.875em;
-  width: 65%;
-  height: auto;
+  margin: 2em 0em 3em 0em;
+  font-size: 4em;
+  width: 35%;
 }
 
 .conteiner {
@@ -568,8 +567,8 @@ i {
   }
   .soon {
     padding: 0.3em 0em 0.3em 0em;
-    font-size: 1.3em;
-    width: 15%;
+    font-size: 1.7em;
+    width: 17%;
   }
   .menu {
     padding: 1.25em 0em 1.25em 0em;
