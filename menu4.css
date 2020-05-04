@@ -149,8 +149,6 @@ footer div {
   position: absolute;
   border-radius: 0.625em;
   top: 50%;
-  width: 4.3em;
-  border: 0.0625em solid yellowgreen;
 }
 
 .m-4-1 span:before, .m-4-2 span:before, .m-4-3 span:before {
@@ -161,6 +159,21 @@ footer div {
 .m-4-1 span:after, .m-4-2 span:after, .m-4-3 span:after {
   left: 100%;
   margin-left: 0.9375em;
+}
+
+.m-4-1 span:before, .m-4-1 span:after {
+  width: 4.3em;
+  border: 0.05em solid yellowgreen;
+}
+
+.m-4-2 span:before, .m-4-2 span:after {
+  width: 4.3em;
+  border: 0.05em solid yellowgreen;
+}
+
+.m-4-3 span:before, .m-4-3 span:after {
+  width: 4.3em;
+  border: 0.05em solid yellowgreen;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
@@ -192,6 +205,15 @@ footer div {
   .title-m-4 {
     font-size: 3em;
   }
+  .m-4-1 span:before, .m-4-1 span:after {
+    display: none;
+  }
+  .m-4-2 span:before, .m-4-2 span:after {
+    display: none;
+  }
+  .m-4-3 span:before, .m-4-3 span:after {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -205,17 +227,20 @@ footer div {
     list-style: none;
   }
   .ul-m4-1 li, .ul-m4-2 li, .ul-m4-3 li {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     padding: 1em 1em 1em 1em;
     text-align: left;
   }
   .title-m-4 {
     font-size: 3em;
+  }
+  .m-4-1 span:before, .m-4-1 span:after {
+    width: 0.2em;
+  }
+  .m-4-2 span:before, .m-4-2 span:after {
+    width: 0.2em;
+  }
+  .m-4-3 span:before, .m-4-3 span:after {
+    width: 0.2em;
   }
 }
 
@@ -232,6 +257,15 @@ footer div {
   }
   .title-m-4 {
     font-size: 3em;
+  }
+  .m-4-1 span:before, .m-4-1 span:after {
+    width: 5.1em;
+  }
+  .m-4-2 span:before, .m-4-2 span:after {
+    width: 3.5em;
+  }
+  .m-4-3 span:before, .m-4-3 span:after {
+    width: 3.3em;
   }
 }
 
@@ -250,6 +284,15 @@ footer div {
   .title-m-4 {
     font-size: 3em;
   }
+  .m-4-1 span:before, .m-4-1 span:after {
+    width: 7.25em;
+  }
+  .m-4-2 span:before, .m-4-2 span:after {
+    width: 5.72em;
+  }
+  .m-4-3 span:before, .m-4-3 span:after {
+    width: 5.45em;
+  }
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
@@ -267,6 +310,15 @@ footer div {
   .title-m-4 {
     font-size: 3em;
   }
+  .m-4-1 span:before, .m-4-1 span:after {
+    width: 9.2em;
+  }
+  .m-4-2 span:before, .m-4-2 span:after {
+    width: 7.6em;
+  }
+  .m-4-3 span:before, .m-4-3 span:after {
+    width: 7.4em;
+  }
 }
 
 @media screen and (min-width: 1440px) and (max-width: 1919px) {
@@ -274,12 +326,6 @@ footer div {
     width: 80%;
   }
   .ul-m4-1 li, .ul-m4-2 li, .ul-m4-3 li {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     padding: 1em 3em 1em 3em;
     font-size: 2em;
     text-align: left;
@@ -290,6 +336,18 @@ footer div {
   .m-3 {
     font-size: 2em;
   }
+  .m-4-1, .m-4-2, .m-4-3 {
+    font-size: 2em;
+  }
+  .m-4-1 span:before, .m-4-1 span:after {
+    width: 7.5em;
+  }
+  .m-4-2 span:before, .m-4-2 span:after {
+    width: 5.8em;
+  }
+  .m-4-3 span:before, .m-4-3 span:after {
+    width: 5.6em;
+  }
 }
 
 @media screen and (min-width: 1920px) {
@@ -297,12 +355,6 @@ footer div {
     width: 80%;
   }
   .ul-m4-1 li, .ul-m4-2 li, .ul-m4-3 li {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     padding: 1em 3em 1em 3em;
     font-size: 2.5em;
     text-align: left;
@@ -318,6 +370,15 @@ footer div {
   }
   .m-4-1, .m-4-2, .m-4-3 {
     font-size: 3em;
+  }
+  .m-4-1 span:before, .m-4-1 span:after {
+    width: 6.4em;
+  }
+  .m-4-2 span:before, .m-4-2 span:after {
+    width: 4.8em;
+  }
+  .m-4-3 span:before, .m-4-3 span:after {
+    width: 4.6em;
   }
 }
 /*# sourceMappingURL=menu4.css.map */
