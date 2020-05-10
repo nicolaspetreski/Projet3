@@ -73,9 +73,6 @@ section {
 
 .m-3-1, .m-3-2, .m-3-3 {
   line-height: 1;
-}
-
-.m-3-1, .m-3-2, .m-3-3 {
   display: inline-block;
 }
 
@@ -101,21 +98,7 @@ footer div {
   width: 30%;
 }
 
-.retour:hover {
-  -webkit-animation: anim 0.1s;
-          animation: anim 0.1s;
-  -webkit-animation-iteration-count: 5;
-          animation-iteration-count: 5;
-}
-
-.mentions:hover {
-  -webkit-animation: anim 0.1s;
-          animation: anim 0.1s;
-  -webkit-animation-iteration-count: 5;
-          animation-iteration-count: 5;
-}
-
-.contact:hover {
+.retour:hover, .mentions:hover, .contact:hover {
   -webkit-animation: anim 0.1s;
           animation: anim 0.1s;
   -webkit-animation-iteration-count: 5;
@@ -153,31 +136,28 @@ footer div {
   position: absolute;
   border-radius: 0.625em;
   top: 50%;
+  margin: 0em 0.625em 0em 0.625em;
+  width: 4.3em;
 }
 
 .m-3-1 span:before, .m-3-2 span:before, .m-3-3 span:before {
   right: 100%;
-  margin-right: 0.9375em;
 }
 
 .m-3-1 span:after, .m-3-2 span:after, .m-3-3 span:after {
   left: 100%;
-  margin-left: 0.9375em;
 }
 
 .m-3-1 span:before, .m-3-1 span:after {
   border: 0.05em solid #0D47A1;
-  width: 4.3em;
 }
 
 .m-3-2 span:before, .m-3-2 span:after {
   border: 0.05em solid #2361c2;
-  width: 5em;
 }
 
 .m-3-3 span:before, .m-3-3 span:after {
   border: 0.05em solid #1CB5E0;
-  width: 5em;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
@@ -209,13 +189,7 @@ footer div {
   .title-m-3 {
     font-size: 3em;
   }
-  .m-3-1 span:before, .m-3-1 span:after {
-    display: none;
-  }
-  .m-3-2 span:before, .m-3-2 span:after {
-    display: none;
-  }
-  .m-3-3 span:before, .m-3-3 span:after {
+  .m-3-1 span:before, .m-3-1 span:after, .m-3-2 span:before, .m-3-2 span:after, .m-3-3 span:before, .m-3-3 span:after {
     display: none;
   }
 }
@@ -237,13 +211,7 @@ footer div {
   .title-m-3 {
     font-size: 3em;
   }
-  .m-3-1 span:before, .m-3-1 span:after {
-    width: 0.2em;
-  }
-  .m-3-2 span:before, .m-3-2 span:after {
-    width: 0.2em;
-  }
-  .m-3-3 span:before, .m-3-3 span:after {
+  .m-3-1 span:before, .m-3-1 span:after, .m-3-2 span:before, .m-3-2 span:after, .m-3-3 span:before, .m-3-3 span:after {
     width: 0.2em;
   }
 }

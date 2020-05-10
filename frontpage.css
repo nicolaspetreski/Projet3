@@ -287,14 +287,7 @@ i {
           animation-delay: 0.6s;
 }
 
-.mentions:hover {
-  -webkit-animation: anim 0.1s;
-          animation: anim 0.1s;
-  -webkit-animation-iteration-count: 5;
-          animation-iteration-count: 5;
-}
-
-.contact:hover {
+.mentions:hover, .contact:hover {
   -webkit-animation: anim 0.1s;
           animation: anim 0.1s;
   -webkit-animation-iteration-count: 5;

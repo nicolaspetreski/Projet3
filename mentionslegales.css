@@ -26,21 +26,7 @@ h1 a {
   color: #EFC64F;
 }
 
-.retour:hover {
-  -webkit-animation: anim 0.1s;
-          animation: anim 0.1s;
-  -webkit-animation-iteration-count: 5;
-          animation-iteration-count: 5;
-}
-
-.mentions:hover {
-  -webkit-animation: anim 0.1s;
-          animation: anim 0.1s;
-  -webkit-animation-iteration-count: 5;
-          animation-iteration-count: 5;
-}
-
-.contact:hover {
+.retour:hover, .mentions:hover, .contact:hover {
   -webkit-animation: anim 0.1s;
           animation: anim 0.1s;
   -webkit-animation-iteration-count: 5;

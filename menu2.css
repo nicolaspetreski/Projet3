@@ -85,9 +85,6 @@ section {
 
 .m-2-1, .m-2-2, .m-2-3 {
   line-height: 1;
-}
-
-.m-2-1, .m-2-2, .m-2-3 {
   display: inline-block;
 }
 
@@ -119,52 +116,35 @@ section {
   position: absolute;
   border-radius: 0.625em;
   top: 50%;
+  margin: 0em 0.625em 0em 0.625em;
+  width: 4.3em;
 }
 
 .m-2-1 span:before, .m-2-2 span:before, .m-2-3 span:before {
   right: 100%;
-  margin-right: 0.9375em;
 }
 
 .m-2-1 span:after, .m-2-2 span:after, .m-2-3 span:after {
   left: 100%;
-  margin-left: 0.9375em;
 }
 
 .m-2-1 span:before, .m-2-1 span:after {
   border: 0.05em solid #FB8C00;
-  width: 4.3em;
 }
 
 .m-2-2 span:before, .m-2-2 span:after {
   border: 0.05em solid #C779D0;
-  width: 5em;
 }
 
 .m-2-3 span:before, .m-2-3 span:after {
   border: 0.05em solid #4BC0C8;
-  width: 5em;
 }
 
 footer div {
   width: 30%;
 }
 
-.retour:hover {
-  -webkit-animation: anim 0.1s;
-          animation: anim 0.1s;
-  -webkit-animation-iteration-count: 5;
-          animation-iteration-count: 5;
-}
-
-.mentions:hover {
-  -webkit-animation: anim 0.1s;
-          animation: anim 0.1s;
-  -webkit-animation-iteration-count: 5;
-          animation-iteration-count: 5;
-}
-
-.contact:hover {
+.retour:hover, .mentions:hover, .contact:hover {
   -webkit-animation: anim 0.1s;
           animation: anim 0.1s;
   -webkit-animation-iteration-count: 5;
@@ -221,13 +201,7 @@ footer div {
   .title-m-2 {
     font-size: 3em;
   }
-  .m-2-1 span:before, .m-2-1 span:after {
-    display: none;
-  }
-  .m-2-2 span:before, .m-2-2 span:after {
-    display: none;
-  }
-  .m-2-3 span:before, .m-2-3 span:after {
+  .m-2-1 span:before, .m-2-1 span:after, .m-2-2 span:before, .m-2-2 span:after, .m-2-3 span:before, .m-2-3 span:after {
     display: none;
   }
 }
@@ -249,13 +223,7 @@ footer div {
   .title-m-2 {
     font-size: 3em;
   }
-  .m-2-1 span:before, .m-2-1 span:after {
-    width: 0.2em;
-  }
-  .m-2-2 span:before, .m-2-2 span:after {
-    width: 0.2em;
-  }
-  .m-2-3 span:before, .m-2-3 span:after {
+  .m-2-1 span:before, .m-2-1 span:after, .m-2-2 span:before, .m-2-2 span:after, .m-2-3 span:before, .m-2-3 span:after {
     width: 0.2em;
   }
 }
