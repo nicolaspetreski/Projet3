@@ -6,14 +6,6 @@
     text-align: center;
 }
 
-@mixin animate($val){
-    animation:$val;
-    -moz-animation:$val;  
-    -webkit-animation:$val;
-    -o-animation:$val;
-    -ms-animation:$val;  
-} 
-
 body{
     font-family: Arial, sans-serif;
 }
