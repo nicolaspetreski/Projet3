@@ -68,7 +68,6 @@ section {
 }
 
 .m-4-1, .m-4-2, .m-4-3 {
-  line-height: 1;
   display: inline-block;
 }
 
@@ -102,7 +101,7 @@ footer div {
 }
 
 @-webkit-keyframes anim {
-  0% {
+  0%, 100% {
     margin: 0;
   }
   15% {
@@ -117,13 +116,10 @@ footer div {
   66% {
     margin-left: 5px;
   }
-  100% {
-    margin: 0px;
-  }
 }
 
 .m-4-1 span, .m-4-2 span, .m-4-3 span {
-  display: inline-block;
+  display: block;
   position: relative;
 }
 
@@ -240,7 +236,7 @@ footer div {
     font-size: 1.2em;
     text-align: left;
   }
-  .ul-m4-1 em, .ul-m4-2 em, .ul-m4-3 em {
+  .ul-m4-1 li em, .ul-m4-2 li em, .ul-m4-3 li em {
     text-align: right;
   }
   .title-m-4 {
@@ -266,7 +262,7 @@ footer div {
     font-size: 1.4em;
     text-align: left;
   }
-  .ul-m4-1 em, .ul-m4-2 em, .ul-m4-3 em {
+  .ul-m4-1 li em, .ul-m4-2 li em, .ul-m4-3 li em {
     text-align: right;
   }
   .title-m-4 {
@@ -292,7 +288,7 @@ footer div {
     font-size: 2em;
     text-align: left;
   }
-  .ul-m4-1 em, .ul-m4-2 em, .ul-m4-3 em {
+  .ul-m4-1 li em, .ul-m4-2 li em, .ul-m4-3 li em {
     text-align: right;
   }
   .m-3 {
@@ -321,7 +317,7 @@ footer div {
     font-size: 2.5em;
     text-align: left;
   }
-  .ul-m4-1 em, .ul-m4-2 em, .ul-m4-3 em {
+  .ul-m4-1 li em, .ul-m4-2 li em, .ul-m4-3 li em {
     text-align: right;
   }
   .m-4 {

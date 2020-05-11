@@ -18,6 +18,10 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+        
+        a{
+            list-style: none;
+        }
 }
 
 footer{
@@ -99,6 +103,7 @@ footer{
 
 .menu1{
     background-color: #FCDFDB;
+    
     a{
         text-decoration: none;
         
@@ -237,9 +242,9 @@ i{
     animation-iteration-count: 5;
 }
 
-@keyframes anim {
-    0% {
-      margin: 0
+@keyframes anim{
+    0%, 100% {
+      margin: 0;
     }
   
     15% {
@@ -257,538 +262,533 @@ i{
     66% {
       margin-left: 5px;
     }
-  
-    100% {
-      margin: 0px;
-    }
+
 }
 
   /** SMARTPHONE **//** SMARTPHONE **//** SMARTPHONE **//** SMARTPHONE **//** SMARTPHONE **/
   
-  @media only screen and (min-width: 320px) and (max-width: 479px)
-  {
-    header{
-        font-size: 0.9em;
-    }
+@media only screen and (min-width: 320px) and (max-width: 479px){
+
+header{
+    font-size: 0.9em;
+}
     
-    footer{
-        height: 1.875em;
+footer{
+    height: 1.875em;
         
-        a{
-            font-size: 0.7em;
-        }
+    a{
+        font-size: 0.7em;
     }
+}
     
-    .soon{
-        padding: 0.3em 0em 0.3em 0em;
-        font-size: 0.625em;
-        width: 30%;
-    }
+.soon{
+    padding: 0.3em 0em 0.3em 0em;
+    font-size: 0.625em;
+    width: 30%;
+}
      
-    .menu{
-        padding: 1.25em 0em 1.25em 0em;
-        width: 100%;
-        height: 9.375em;
-    }
+.menu{
+    padding: 1.25em 0em 1.25em 0em;
+    width: 100%;
+    height: 9.375em;
+}
     
-    .menu1{
-        a{
-            p:nth-child(2){
+.menu1{
+    a{
+        p:nth-child(2){
+        font-size: 1.25em;
+        }
+    
+        p{
             font-size: 1.25em;
-            }
-    
-            p{
-                font-size: 1.25em;
-            }
-        } 
-    }
-    
-    .menu2{
-        a{
-            p:first-child{
-                font-size: 0.9375em;
-            }
-        
-            p{
-                font-size: 1.25em;
-            } 
         }
-    }
+    } 
+}
     
-    .menu3{
-        a{
-            p:first-child{
-                font-size: 1.25em;
-            }
-    
-            p{
+.menu2{
+    a{
+        p:first-child{
+            font-size: 0.9375em;
+        }
+        
+        p{
             font-size: 1.25em;
-            }
-        }
+        } 
     }
+}
     
-    .menu4{
-        a{
-            p:first-child{
+.menu3{
+    a{
+        p:first-child{
             font-size: 1.25em;
-            }
-    
-            p{
-                font-size: 1.25em;
-            }
         }
-    }
-  
-  }
-
-  @media only screen and (min-width: 480px) and (max-width: 767px)
-  {
-    header{
-        font-size: 0.9em;
-    }
     
-    footer{
-        height: 1.875em;
-        
-        a{
-            font-size: 0.9em;
-        }
-    }
-    
-    .soon{
-        padding: 0.3em 0em 0.3em 0em;
-        font-size: 0.9em;
-        width: 30%;
-    }
-     
-    .menu{
-        padding: 1.25em 0em 1.25em 0em;
-        width: 100%;
-        height: 11.25em;
-    }
-    
-    .menu1{
-        a{
-            p:nth-child(2){
-            font-size: 1.5625em;
-            }
-    
-            p{
-                font-size: 1.5625em;
-            }
-        } 
-    }
-    
-    .menu2{
-        a{
-            p:first-child{
-                font-size: 1.25em;
-            }
-        
-            p{
-                font-size: 1.5625em;
-            } 
-        }
-    }
-    
-    .menu3{
-        a{
-            p:first-child{
-                font-size: 1.5625em;
-            }
-    
-            p{
-            font-size: 1.5625em;
-            }
-        }
-    }
-    
-    .menu4{
-        a{
-            p:first-child{
-            font-size: 1.5625em;
-            }
-    
-            p{
-                font-size: 1.5625em;
-            }
-        }
-    }
-  
-  }
-
-  @media only screen and (min-width: 768px) and (max-width: 1023px)
-  {
-    header{
-        font-size: 1.1em;
-    }
-    
-    footer{
-        height: 1.875em;
-        
-        a{
-            font-size: 1.1em;
-        }
-    }
-    
-    .soon{
-        padding: 0.3em 0em 0.3em 0em;
-        font-size: 1.1em;
-        width: 20%;
-    }
-     
-    .menu{
-        padding: 1.25em 0em 1.25em 0em;
-        width: 100%;
-        height: 13.75em;
-    }
-    
-    .menu1{
-        a{
-            p:nth-child(2){
-            font-size: 2.1875em;
-            }
-    
-            p{
-                font-size: 2.1875em;
-            }
-        } 
-    }
-    
-    .menu2{
-        a{
-            p:first-child{
-                font-size: 1.875em;
-            }
-        
-            p{
-                font-size: 2.1875em;
-            } 
-        }
-    }
-    
-    .menu3{
-        a{
-            p:first-child{
-                font-size: 2.1875em;
-            }
-    
-            p{
-            font-size: 2.1875em;
-            }
-        }
-    }
-    
-    .menu4{
-        a{
-            p:first-child{
-            font-size: 1.875em;
-            }
-    
-            p{
-                font-size: 1.875em;
-            }
-        }
-    }
-  
-  }
-  @media screen and (min-width: 1024px) and (max-width: 1279px)
-  {
-    header{
-        font-size: 1.2em;
-    }
-    
-    footer{
-        height: 1.875em;
-        
-        a{
-            font-size: 1.2em;
-        }
-    }
-    
-    .soon{
-        padding: 0.3em 0em 0.3em 0em;
-        font-size: 1.2em;
-        width: 17%;
-    }
-     
-    .menu{
-        padding: 1.25em 0em 1.25em 0em;
-        height: 34.375em;
-    }
-    
-    .menu1{
-        a{
-            p:nth-child(2){
-            font-size: 2.5em;
-            }
-    
-            p{
-                font-size: 2.5em;
-            }
-        } 
-    }
-    
-    .menu2{
-        a{
-            p:first-child{
-                font-size: 2.1875em;
-            }
-        
-            p{
-                font-size: 2.5em;
-            } 
-        }
-    }
-    
-    .menu3{
-        a{
-            p:first-child{
-                font-size: 2.5em;
-            }
-    
-            p{
-            font-size: 2.5em;
-            }
-        }
-    }
-    
-    .menu4{
-        a{
-            p:first-child{
-            font-size: 2.5em;
-            }
-    
-            p{
-                font-size: 2.5em;
-            }
-        }
-    }
-  
-  }
-  @media screen and (min-width: 1280px) and (max-width: 1439px)
-  {
-    header{
-        font-size: 1.3em;
-    }
-    
-    footer{
-        height: 1.875em;
-        
-        a{
-            font-size: 1.3em;
-        }
-    }
-    
-    .soon{
-        padding: 0.3em 0em 0.3em 0em;
-        font-size: 1.3em;
-        width: 17%;
-    }
-
-    .menu{
-        padding: 1.25em 0em 1.25em 0em;
-        height: 34.375em;
-    }
-    
-    .menu1{
-        a{
-            p:nth-child(2){
-            font-size: 2.5em;
-            }
-    
-            p{
-                font-size: 2.5em;
-            }
-        } 
-    }
-    
-    .menu2{
-        a{
-            p:first-child{
-                font-size: 2.1875em;
-            }
-        
-            p{
-                font-size: 2.5em;
-            } 
-        }
-    }
-    
-    .menu3{
-        a{
-            p:first-child{
-                font-size: 2.5em;
-            }
-    
-            p{
-            font-size: 2.5em;
-            }
-        }
-    }
-    
-    .menu4{
-        a{
-            p:first-child{
-            font-size: 2.5em;
-            }
-    
-            p{
-                font-size: 2.5em;
-            }
-        }
-    }
-  
-  }
-
-@media screen and (min-width: 1440px) and (max-width: 1919px)
-{
-    header{
-        font-size: 1.4em;
-    }
-    
-    footer{
-        height: 1.875em;
-        
-        a{
-            font-size: 1.1em;
-        }
-    }
-    
-    .soon{
-        padding: 0.3em 0em 0.3em 0em;
-        font-size: 1.7em;
-        width: 17%;
-    }
-
-    .menu{
-        padding: 1.25em 0em 1.25em 0em;
-        height: 34.375em;
-    }
-    
-    .menu1{
-        a{
-            p:nth-child(2){
-            font-size: 2.5em;
-            }
-    
-            p{
-                font-size: 2.5em;
-            }
-        } 
-    }
-    
-    .menu2{
-        a{
-            p:first-child{
-                font-size: 2.1875em;
-            }
-        
-            p{
-                font-size: 2.5em;
-            } 
-        }
-    }
-    
-    .menu3{
-        a{
-            p:first-child{
-                font-size: 2.5em;
-            }
-    
-            p{
-            font-size: 2.5em;
-            }
-        }
-    }
-    
-    .menu4{
-        a{
-            p:first-child{
-            font-size: 2.5em;
-            }
-    
-            p{
-                font-size: 2.5em;
-            }
+        p{
+            font-size: 1.25em;
         }
     }
 }
-@media screen and (min-width: 1920px)
-{
-    header{
-        font-size: 1.4em;
-    }
     
-    footer{
-        height: 3.125em;
+.menu4{
+    a{
+        p:first-child{
+            font-size: 1.25em;
+        }
+    
+        p{
+            font-size: 1.25em;
+        }
+    }
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+
+header{
+    font-size: 0.9em;
+}
+    
+footer{
+    height: 1.875em;
+        
+    a{
+        font-size: 0.9em;
+    }
+}
+    
+.soon{
+    padding: 0.3em 0em 0.3em 0em;
+    font-size: 0.9em;
+    width: 30%;
+}
+     
+.menu{
+    padding: 1.25em 0em 1.25em 0em;
+    width: 100%;
+    height: 11.25em;
+}
+    
+.menu1{
+    a{
+        p:nth-child(2){
+            font-size: 1.5625em;
+        }
+    
+        p{
+            font-size: 1.5625em;
+        }
+    } 
+}
+    
+.menu2{
+    a{
+        p:first-child{
+                font-size: 1.25em;
+        }
+        
+        p{
+            font-size: 1.5625em;
+        } 
+    }
+}
+    
+.menu3{
+    a{
+        p:first-child{
+            font-size: 1.5625em;
+        }
+    
+        p{
+            font-size: 1.5625em;
+        }
+    }
+}
+    
+.menu4{
+    a{
+        p:first-child{
+        font-size: 1.5625em;
+        }
+    
+        p{
+            font-size: 1.5625em;
+        }
+    }
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+header{
+    font-size: 1.1em;
+}
+    
+footer{
+    height: 1.875em;
+        
+        a{
+            font-size: 1.1em;
+        }
+}
+    
+.soon{
+    padding: 0.3em 0em 0.3em 0em;
+    font-size: 1.1em;
+    width: 20%;
+}
+     
+.menu{
+    padding: 1.25em 0em 1.25em 0em;
+    width: 100%;
+    height: 13.75em;
+}
+    
+.menu1{
+    a{
+        p:nth-child(2){
+            font-size: 2.1875em;
+        }
+    
+        p{
+            font-size: 2.1875em;
+        }
+    } 
+}
+    
+.menu2{
+    a{
+        p:first-child{
+            font-size: 1.875em;
+        }
+        
+        p{
+            font-size: 2.1875em;
+        } 
+    }
+}
+    
+.menu3{
+    a{
+        p:first-child{
+            font-size: 2.1875em;
+        }
+    
+        p{
+            font-size: 2.1875em;
+        }
+    }
+}
+    
+.menu4{
+    a{
+        p:first-child{
+            font-size: 1.875em;
+        }
+    
+        p{
+            font-size: 1.875em;
+        }
+    }
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+
+header{
+    font-size: 1.2em;
+}
+    
+footer{
+    height: 1.875em;
+        
+    a{
+        font-size: 1.2em;
+    }
+}
+    
+.soon{
+    padding: 0.3em 0em 0.3em 0em;
+    font-size: 1.2em;
+    width: 17%;
+}
+     
+.menu{
+    padding: 1.25em 0em 1.25em 0em;
+    height: 34.375em;
+}
+    
+.menu1{
+    a{
+        p:nth-child(2){
+            font-size: 2.5em;
+        }
+    
+        p{
+            font-size: 2.5em;
+        }
+    } 
+}
+    
+.menu2{
+    a{
+        p:first-child{
+            font-size: 2.1875em;
+        }
+        
+        p{
+            font-size: 2.5em;
+        } 
+    }
+}
+    
+.menu3{
+    a{
+        p:first-child{
+            font-size: 2.5em;
+        }
+    
+        p{
+            font-size: 2.5em;
+        }
+    }
+}
+    
+.menu4{
+    a{
+        p:first-child{
+            font-size: 2.5em;
+        }
+    
+        p{
+            font-size: 2.5em;
+        }
+    }
+}
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px){
+
+header{
+    font-size: 1.3em;
+}
+    
+footer{
+    height: 1.875em;
+        
+    a{
+        font-size: 1.3em;
+    }
+}
+    
+.soon{
+    padding: 0.3em 0em 0.3em 0em;
+    font-size: 1.3em;
+    width: 17%;
+}
+
+.menu{
+    padding: 1.25em 0em 1.25em 0em;
+    height: 34.375em;
+}
+    
+.menu1{
+    a{
+        p:nth-child(2){
+            font-size: 2.5em;
+        }
+    
+        p{
+            font-size: 2.5em;
+        }
+    } 
+}
+    
+.menu2{
+    a{
+        p:first-child{
+            font-size: 2.1875em;
+        }
+        
+        p{
+            font-size: 2.5em;
+        } 
+    }
+}
+    
+.menu3{
+    a{
+        p:first-child{
+            font-size: 2.5em;
+        }
+    
+        p{
+            font-size: 2.5em;
+        }
+    }
+}
+    
+.menu4{
+    a{
+         p:first-child{
+            font-size: 2.5em;
+        }
+    
+        p{
+            font-size: 2.5em;
+        }
+    }
+}
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1919px){
+
+header{
+    font-size: 1.4em;
+}
+    
+footer{
+    height: 1.875em;
+        
+    a{
+        font-size: 1.1em;
+    }
+}
+    
+.soon{
+    padding: 0.3em 0em 0.3em 0em;
+    font-size: 1.7em;
+    width: 17%;
+}
+
+.menu{
+    padding: 1.25em 0em 1.25em 0em;
+    height: 34.375em;
+}
+    
+.menu1{
+    a{
+        p:nth-child(2){
+            font-size: 2.5em;
+        }
+    
+        p{
+            font-size: 2.5em;
+        }
+    } 
+}
+    
+.menu2{
+    a{
+        p:first-child{
+            font-size: 2.1875em;
+        }
+        
+        p{
+            font-size: 2.5em;
+        } 
+    }
+}
+    
+.menu3{
+    a{
+        p:first-child{
+            font-size: 2.5em;
+        }
+    
+        p{
+            font-size: 2.5em;
+        }
+    }
+}
+    
+.menu4{
+    a{
+        p:first-child{
+            font-size: 2.5em;
+        }
+    
+        p{
+            font-size: 2.5em;
+        }
+    }
+}
+}
+
+@media screen and (min-width: 1920px){
+
+header{
+    font-size: 1.4em;
+}
+    
+footer{
+    height: 3.125em;
         
         a{
             font-size: 1.1em;
         }
     }
     
-    .soon{
-        padding: 0.3em 0em 0.3em 0em;
-        font-size: 1.3em;
-        width: 14%;
-    }
+.soon{
+    padding: 0.3em 0em 0.3em 0em;
+    font-size: 1.3em;
+    width: 14%;
+}
 
-    .bloc{
-        display: flex;
-        justify-content: space-around;
-    }
+.bloc{
+    display: flex;
+    justify-content: space-around;
+}
      
-    .menu{
-        padding: 1.25em 0em 1.25em 0em;
-        height: 46.875em;
-    }
+.menu{
+    padding: 1.25em 0em 1.25em 0em;
+    height: 46.875em;
+}
     
-    .menu1{
-        a{
-            p:nth-child(2){
+.menu1{
+    a{
+        p:nth-child(2){
             font-size: 3.4375em;
-            }
+        }
     
-            p{
-                font-size: 3.4375em;
-            }
+        p{
+            font-size: 3.4375em;
+        }
+    } 
+}
+    
+.menu2{
+    a{
+        p:first-child{
+            font-size: 3.125em;
+        }
+        
+        p{
+            font-size: 3.4375em;
         } 
     }
+}
     
-    .menu2{
-        a{
-            p:first-child{
-                font-size: 3.125em;
-            }
-        
-            p{
-                font-size: 3.4375em;
-            } 
-        }
-    }
-    
-    .menu3{
-        a{
-            p:first-child{
-                font-size: 3.4375em;
-            }
-    
-            p{
+.menu3{
+    a{
+        p:first-child{
             font-size: 3.4375em;
-            }
         }
-    }
     
-    .menu4{
-        a{
-            p:first-child{
+        p{
             font-size: 3.4375em;
-            }
-    
-            p{
-                font-size: 3.4375em;
-            }
         }
     }
+}
+    
+.menu4{
+    a{
+        p:first-child{
+            font-size: 3.4375em;
+        }
+    
+        p{
+            font-size: 3.4375em;
+        }
+    }
+}
 }

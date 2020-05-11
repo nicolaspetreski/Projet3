@@ -26,6 +26,10 @@ header {
           justify-content: center;
 }
 
+header a {
+  list-style: none;
+}
+
 footer {
   background-color: #569C87;
   position: -webkit-sticky;
@@ -295,7 +299,7 @@ i {
 }
 
 @-webkit-keyframes anim {
-  0% {
+  0%, 100% {
     margin: 0;
   }
   15% {
@@ -309,14 +313,11 @@ i {
   }
   66% {
     margin-left: 5px;
-  }
-  100% {
-    margin: 0px;
   }
 }
 
 @keyframes anim {
-  0% {
+  0%, 100% {
     margin: 0;
   }
   15% {
@@ -330,9 +331,6 @@ i {
   }
   66% {
     margin-left: 5px;
-  }
-  100% {
-    margin: 0px;
   }
 }
 

@@ -3,22 +3,9 @@
   padding-bottom: 6em;
 }
 
-.container5 h2 {
-  text-align: justify;
-  text-align: center;
-  margin: 2em 5em 2em 5em;
-}
-
-.container5 h3 {
-  text-align: justify;
-  text-align: center;
-  margin: 2em 7em 1em 7em;
-}
-
-.container5 p {
-  text-align: justify;
-  text-align: center;
-  margin: 1em 20em 1em 20em;
+.container5 p, .container5 h2, .container5 h3 {
+  margin: 2em 1em 0 1em;
+  text-align: left;
 }
 
 h1 a {
