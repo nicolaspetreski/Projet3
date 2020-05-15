@@ -765,7 +765,7 @@ section {
 }
 
 footer div {
-  width: 30%;
+  width: 50%;
 }
 
 .retour:hover, .mentions:hover, .contact:hover {
@@ -1151,7 +1151,7 @@ section {
 }
 
 footer div {
-  width: 30%;
+  width: 50%;
 }
 
 .retour:hover, .mentions:hover, .contact:hover {
@@ -1478,7 +1478,7 @@ section {
 }
 
 footer div {
-  width: 30%;
+  width: 50%;
 }
 
 .retour:hover, .mentions:hover, .contact:hover {
@@ -1825,7 +1825,7 @@ section {
 }
 
 footer div {
-  width: 30%;
+  width: 50%;
 }
 
 .retour:hover, .mentions:hover, .contact:hover {
@@ -2095,6 +2095,10 @@ h1 a {
           animation: anim 0.1s;
   -webkit-animation-iteration-count: 5;
           animation-iteration-count: 5;
+}
+
+footer div {
+  width: 50%;
 }
 
 @-webkit-keyframes anim {
